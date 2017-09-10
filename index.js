@@ -35,7 +35,7 @@ for (i = 0; i < 52; i++) {
 }
 const weekdays = [];
 for (i = 0; i < 7; i++) {
-  weekdays[i] = i + 1; // TODO should be i
+  weekdays[i] = i;
   deploysByDayOfTheWeek[i] = {
     weekday: i,
     count: 0,
@@ -93,7 +93,7 @@ data.forEach((datum) => {
 });
 
 deploysPerDay.forEach((day) => {
-  if (!day.count && day.weekday > 1 && day.weekday < 6) {
+  if (!day.count && day.weekday !== 0 && day.weekday !== 6) {
     daysWithoutDeploys.push(day);
   }
 });

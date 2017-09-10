@@ -1,4 +1,10 @@
 [{
+  "yearWeekDay": "2016w5d0",
+  "year": 2016,
+  "week": 5,
+  "weekday": 0,
+  "count": 1
+}, {
   "yearWeekDay": "2016w5d1",
   "year": 2016,
   "week": 5,
@@ -35,10 +41,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w5d7",
+  "yearWeekDay": "2016w6d0",
   "year": 2016,
-  "week": 5,
-  "weekday": 7,
+  "week": 6,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w6d1",
@@ -77,10 +83,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w6d7",
+  "yearWeekDay": "2016w7d0",
   "year": 2016,
-  "week": 6,
-  "weekday": 7,
+  "week": 7,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w7d1",
@@ -119,10 +125,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w7d7",
+  "yearWeekDay": "2016w8d0",
   "year": 2016,
-  "week": 7,
-  "weekday": 7,
+  "week": 8,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w8d1",
@@ -161,10 +167,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w8d7",
+  "yearWeekDay": "2016w9d0",
   "year": 2016,
-  "week": 8,
-  "weekday": 7,
+  "week": 9,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w9d1",
@@ -203,10 +209,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w9d7",
+  "yearWeekDay": "2016w10d0",
   "year": 2016,
-  "week": 9,
-  "weekday": 7,
+  "week": 10,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w10d1",
@@ -245,10 +251,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w10d7",
+  "yearWeekDay": "2016w11d0",
   "year": 2016,
-  "week": 10,
-  "weekday": 7,
+  "week": 11,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w11d1",
@@ -287,10 +293,10 @@
   "weekday": 6,
   "count": 1
 }, {
-  "yearWeekDay": "2016w11d7",
+  "yearWeekDay": "2016w12d0",
   "year": 2016,
-  "week": 11,
-  "weekday": 7,
+  "week": 12,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w12d1",
@@ -329,10 +335,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w12d7",
+  "yearWeekDay": "2016w13d0",
   "year": 2016,
-  "week": 12,
-  "weekday": 7,
+  "week": 13,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w13d1",
@@ -371,10 +377,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w13d7",
+  "yearWeekDay": "2016w14d0",
   "year": 2016,
-  "week": 13,
-  "weekday": 7,
+  "week": 14,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w14d1",
@@ -413,10 +419,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w14d7",
+  "yearWeekDay": "2016w15d0",
   "year": 2016,
-  "week": 14,
-  "weekday": 7,
+  "week": 15,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w15d1",
@@ -455,10 +461,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w15d7",
+  "yearWeekDay": "2016w16d0",
   "year": 2016,
-  "week": 15,
-  "weekday": 7,
+  "week": 16,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w16d1",
@@ -497,10 +503,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w16d7",
+  "yearWeekDay": "2016w17d0",
   "year": 2016,
-  "week": 16,
-  "weekday": 7,
+  "week": 17,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w17d1",
@@ -539,10 +545,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w17d7",
+  "yearWeekDay": "2016w18d0",
   "year": 2016,
-  "week": 17,
-  "weekday": 7,
+  "week": 18,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w18d1",
@@ -581,11 +587,11 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w18d7",
+  "yearWeekDay": "2016w19d0",
   "year": 2016,
-  "week": 18,
-  "weekday": 7,
-  "count": 0
+  "week": 19,
+  "weekday": 0,
+  "count": 1
 }, {
   "yearWeekDay": "2016w19d1",
   "year": 2016,
@@ -623,10 +629,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w19d7",
+  "yearWeekDay": "2016w20d0",
   "year": 2016,
-  "week": 19,
-  "weekday": 7,
+  "week": 20,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w20d1",
@@ -665,10 +671,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w20d7",
+  "yearWeekDay": "2016w21d0",
   "year": 2016,
-  "week": 20,
-  "weekday": 7,
+  "week": 21,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w21d1",
@@ -707,10 +713,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w21d7",
+  "yearWeekDay": "2016w22d0",
   "year": 2016,
-  "week": 21,
-  "weekday": 7,
+  "week": 22,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w22d1",
@@ -749,10 +755,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w22d7",
+  "yearWeekDay": "2016w23d0",
   "year": 2016,
-  "week": 22,
-  "weekday": 7,
+  "week": 23,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w23d1",
@@ -791,10 +797,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w23d7",
+  "yearWeekDay": "2016w24d0",
   "year": 2016,
-  "week": 23,
-  "weekday": 7,
+  "week": 24,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w24d1",
@@ -833,10 +839,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w24d7",
+  "yearWeekDay": "2016w25d0",
   "year": 2016,
-  "week": 24,
-  "weekday": 7,
+  "week": 25,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w25d1",
@@ -875,10 +881,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w25d7",
+  "yearWeekDay": "2016w26d0",
   "year": 2016,
-  "week": 25,
-  "weekday": 7,
+  "week": 26,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w26d1",
@@ -917,10 +923,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w26d7",
+  "yearWeekDay": "2016w27d0",
   "year": 2016,
-  "week": 26,
-  "weekday": 7,
+  "week": 27,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w27d1",
@@ -959,10 +965,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w27d7",
+  "yearWeekDay": "2016w28d0",
   "year": 2016,
-  "week": 27,
-  "weekday": 7,
+  "week": 28,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w28d1",
@@ -1001,10 +1007,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w28d7",
+  "yearWeekDay": "2016w29d0",
   "year": 2016,
-  "week": 28,
-  "weekday": 7,
+  "week": 29,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w29d1",
@@ -1043,10 +1049,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w29d7",
+  "yearWeekDay": "2016w30d0",
   "year": 2016,
-  "week": 29,
-  "weekday": 7,
+  "week": 30,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w30d1",
@@ -1085,10 +1091,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w30d7",
+  "yearWeekDay": "2016w31d0",
   "year": 2016,
-  "week": 30,
-  "weekday": 7,
+  "week": 31,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w31d1",
@@ -1127,10 +1133,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w31d7",
+  "yearWeekDay": "2016w32d0",
   "year": 2016,
-  "week": 31,
-  "weekday": 7,
+  "week": 32,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w32d1",
@@ -1169,10 +1175,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w32d7",
+  "yearWeekDay": "2016w33d0",
   "year": 2016,
-  "week": 32,
-  "weekday": 7,
+  "week": 33,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w33d1",
@@ -1211,10 +1217,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w33d7",
+  "yearWeekDay": "2016w34d0",
   "year": 2016,
-  "week": 33,
-  "weekday": 7,
+  "week": 34,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w34d1",
@@ -1253,10 +1259,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w34d7",
+  "yearWeekDay": "2016w35d0",
   "year": 2016,
-  "week": 34,
-  "weekday": 7,
+  "week": 35,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w35d1",
@@ -1295,10 +1301,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w35d7",
+  "yearWeekDay": "2016w36d0",
   "year": 2016,
-  "week": 35,
-  "weekday": 7,
+  "week": 36,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w36d1",
@@ -1337,10 +1343,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w36d7",
+  "yearWeekDay": "2016w37d0",
   "year": 2016,
-  "week": 36,
-  "weekday": 7,
+  "week": 37,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w37d1",
@@ -1379,10 +1385,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w37d7",
+  "yearWeekDay": "2016w38d0",
   "year": 2016,
-  "week": 37,
-  "weekday": 7,
+  "week": 38,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w38d1",
@@ -1421,10 +1427,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w38d7",
+  "yearWeekDay": "2016w39d0",
   "year": 2016,
-  "week": 38,
-  "weekday": 7,
+  "week": 39,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w39d1",
@@ -1463,10 +1469,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w39d7",
+  "yearWeekDay": "2016w40d0",
   "year": 2016,
-  "week": 39,
-  "weekday": 7,
+  "week": 40,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w40d1",
@@ -1505,10 +1511,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w40d7",
+  "yearWeekDay": "2016w41d0",
   "year": 2016,
-  "week": 40,
-  "weekday": 7,
+  "week": 41,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w41d1",
@@ -1547,10 +1553,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w41d7",
+  "yearWeekDay": "2016w42d0",
   "year": 2016,
-  "week": 41,
-  "weekday": 7,
+  "week": 42,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w42d1",
@@ -1589,10 +1595,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w42d7",
+  "yearWeekDay": "2016w43d0",
   "year": 2016,
-  "week": 42,
-  "weekday": 7,
+  "week": 43,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w43d1",
@@ -1631,10 +1637,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w43d7",
+  "yearWeekDay": "2016w44d0",
   "year": 2016,
-  "week": 43,
-  "weekday": 7,
+  "week": 44,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w44d1",
@@ -1673,10 +1679,10 @@
   "weekday": 6,
   "count": 3
 }, {
-  "yearWeekDay": "2016w44d7",
+  "yearWeekDay": "2016w45d0",
   "year": 2016,
-  "week": 44,
-  "weekday": 7,
+  "week": 45,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w45d1",
@@ -1715,10 +1721,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w45d7",
+  "yearWeekDay": "2016w46d0",
   "year": 2016,
-  "week": 45,
-  "weekday": 7,
+  "week": 46,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w46d1",
@@ -1757,10 +1763,10 @@
   "weekday": 6,
   "count": 1
 }, {
-  "yearWeekDay": "2016w46d7",
+  "yearWeekDay": "2016w47d0",
   "year": 2016,
-  "week": 46,
-  "weekday": 7,
+  "week": 47,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w47d1",
@@ -1799,10 +1805,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w47d7",
+  "yearWeekDay": "2016w48d0",
   "year": 2016,
-  "week": 47,
-  "weekday": 7,
+  "week": 48,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w48d1",
@@ -1841,10 +1847,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w48d7",
+  "yearWeekDay": "2016w49d0",
   "year": 2016,
-  "week": 48,
-  "weekday": 7,
+  "week": 49,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w49d1",
@@ -1883,10 +1889,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w49d7",
+  "yearWeekDay": "2016w50d0",
   "year": 2016,
-  "week": 49,
-  "weekday": 7,
+  "week": 50,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w50d1",
@@ -1925,10 +1931,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w50d7",
+  "yearWeekDay": "2016w51d0",
   "year": 2016,
-  "week": 50,
-  "weekday": 7,
+  "week": 51,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w51d1",
@@ -1967,10 +1973,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w51d7",
+  "yearWeekDay": "2016w52d0",
   "year": 2016,
-  "week": 51,
-  "weekday": 7,
+  "week": 52,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2016w52d1",
@@ -2009,10 +2015,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2016w52d7",
-  "year": 2016,
-  "week": 52,
-  "weekday": 7,
+  "yearWeekDay": "2017w1d0",
+  "year": 2017,
+  "week": 1,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w1d1",
@@ -2051,10 +2057,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w1d7",
+  "yearWeekDay": "2017w2d0",
   "year": 2017,
-  "week": 1,
-  "weekday": 7,
+  "week": 2,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w2d1",
@@ -2093,10 +2099,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w2d7",
+  "yearWeekDay": "2017w3d0",
   "year": 2017,
-  "week": 2,
-  "weekday": 7,
+  "week": 3,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w3d1",
@@ -2135,10 +2141,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w3d7",
+  "yearWeekDay": "2017w4d0",
   "year": 2017,
-  "week": 3,
-  "weekday": 7,
+  "week": 4,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w4d1",
@@ -2177,11 +2183,11 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w4d7",
+  "yearWeekDay": "2017w5d0",
   "year": 2017,
-  "week": 4,
-  "weekday": 7,
-  "count": 0
+  "week": 5,
+  "weekday": 0,
+  "count": 1
 }, {
   "yearWeekDay": "2017w5d1",
   "year": 2017,
@@ -2219,10 +2225,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w5d7",
+  "yearWeekDay": "2017w6d0",
   "year": 2017,
-  "week": 5,
-  "weekday": 7,
+  "week": 6,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w6d1",
@@ -2261,10 +2267,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w6d7",
+  "yearWeekDay": "2017w7d0",
   "year": 2017,
-  "week": 6,
-  "weekday": 7,
+  "week": 7,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w7d1",
@@ -2303,10 +2309,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w7d7",
+  "yearWeekDay": "2017w8d0",
   "year": 2017,
-  "week": 7,
-  "weekday": 7,
+  "week": 8,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w8d1",
@@ -2345,10 +2351,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w8d7",
+  "yearWeekDay": "2017w9d0",
   "year": 2017,
-  "week": 8,
-  "weekday": 7,
+  "week": 9,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w9d1",
@@ -2387,10 +2393,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w9d7",
+  "yearWeekDay": "2017w10d0",
   "year": 2017,
-  "week": 9,
-  "weekday": 7,
+  "week": 10,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w10d1",
@@ -2429,10 +2435,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w10d7",
+  "yearWeekDay": "2017w11d0",
   "year": 2017,
-  "week": 10,
-  "weekday": 7,
+  "week": 11,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w11d1",
@@ -2471,10 +2477,10 @@
   "weekday": 6,
   "count": 1
 }, {
-  "yearWeekDay": "2017w11d7",
+  "yearWeekDay": "2017w12d0",
   "year": 2017,
-  "week": 11,
-  "weekday": 7,
+  "week": 12,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w12d1",
@@ -2513,10 +2519,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w12d7",
+  "yearWeekDay": "2017w13d0",
   "year": 2017,
-  "week": 12,
-  "weekday": 7,
+  "week": 13,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w13d1",
@@ -2555,10 +2561,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w13d7",
+  "yearWeekDay": "2017w14d0",
   "year": 2017,
-  "week": 13,
-  "weekday": 7,
+  "week": 14,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w14d1",
@@ -2597,10 +2603,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w14d7",
+  "yearWeekDay": "2017w15d0",
   "year": 2017,
-  "week": 14,
-  "weekday": 7,
+  "week": 15,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w15d1",
@@ -2639,10 +2645,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w15d7",
+  "yearWeekDay": "2017w16d0",
   "year": 2017,
-  "week": 15,
-  "weekday": 7,
+  "week": 16,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w16d1",
@@ -2681,10 +2687,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w16d7",
+  "yearWeekDay": "2017w17d0",
   "year": 2017,
-  "week": 16,
-  "weekday": 7,
+  "week": 17,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w17d1",
@@ -2723,10 +2729,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w17d7",
+  "yearWeekDay": "2017w18d0",
   "year": 2017,
-  "week": 17,
-  "weekday": 7,
+  "week": 18,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w18d1",
@@ -2765,11 +2771,11 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w18d7",
+  "yearWeekDay": "2017w19d0",
   "year": 2017,
-  "week": 18,
-  "weekday": 7,
-  "count": 0
+  "week": 19,
+  "weekday": 0,
+  "count": 1
 }, {
   "yearWeekDay": "2017w19d1",
   "year": 2017,
@@ -2807,10 +2813,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w19d7",
+  "yearWeekDay": "2017w20d0",
   "year": 2017,
-  "week": 19,
-  "weekday": 7,
+  "week": 20,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w20d1",
@@ -2849,10 +2855,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w20d7",
+  "yearWeekDay": "2017w21d0",
   "year": 2017,
-  "week": 20,
-  "weekday": 7,
+  "week": 21,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w21d1",
@@ -2891,10 +2897,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w21d7",
+  "yearWeekDay": "2017w22d0",
   "year": 2017,
-  "week": 21,
-  "weekday": 7,
+  "week": 22,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w22d1",
@@ -2933,10 +2939,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w22d7",
+  "yearWeekDay": "2017w23d0",
   "year": 2017,
-  "week": 22,
-  "weekday": 7,
+  "week": 23,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w23d1",
@@ -2975,10 +2981,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w23d7",
+  "yearWeekDay": "2017w24d0",
   "year": 2017,
-  "week": 23,
-  "weekday": 7,
+  "week": 24,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w24d1",
@@ -3017,10 +3023,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w24d7",
+  "yearWeekDay": "2017w25d0",
   "year": 2017,
-  "week": 24,
-  "weekday": 7,
+  "week": 25,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w25d1",
@@ -3059,10 +3065,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w25d7",
+  "yearWeekDay": "2017w26d0",
   "year": 2017,
-  "week": 25,
-  "weekday": 7,
+  "week": 26,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w26d1",
@@ -3101,10 +3107,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w26d7",
+  "yearWeekDay": "2017w27d0",
   "year": 2017,
-  "week": 26,
-  "weekday": 7,
+  "week": 27,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w27d1",
@@ -3143,10 +3149,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w27d7",
+  "yearWeekDay": "2017w28d0",
   "year": 2017,
-  "week": 27,
-  "weekday": 7,
+  "week": 28,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w28d1",
@@ -3185,10 +3191,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w28d7",
+  "yearWeekDay": "2017w29d0",
   "year": 2017,
-  "week": 28,
-  "weekday": 7,
+  "week": 29,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w29d1",
@@ -3227,10 +3233,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w29d7",
+  "yearWeekDay": "2017w30d0",
   "year": 2017,
-  "week": 29,
-  "weekday": 7,
+  "week": 30,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w30d1",
@@ -3269,10 +3275,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w30d7",
+  "yearWeekDay": "2017w31d0",
   "year": 2017,
-  "week": 30,
-  "weekday": 7,
+  "week": 31,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w31d1",
@@ -3311,10 +3317,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w31d7",
+  "yearWeekDay": "2017w32d0",
   "year": 2017,
-  "week": 31,
-  "weekday": 7,
+  "week": 32,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w32d1",
@@ -3353,10 +3359,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w32d7",
+  "yearWeekDay": "2017w33d0",
   "year": 2017,
-  "week": 32,
-  "weekday": 7,
+  "week": 33,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w33d1",
@@ -3395,10 +3401,10 @@
   "weekday": 6,
   "count": 0
 }, {
-  "yearWeekDay": "2017w33d7",
+  "yearWeekDay": "2017w34d0",
   "year": 2017,
-  "week": 33,
-  "weekday": 7,
+  "week": 34,
+  "weekday": 0,
   "count": 0
 }, {
   "yearWeekDay": "2017w34d1",
@@ -3435,11 +3441,5 @@
   "year": 2017,
   "week": 34,
   "weekday": 6,
-  "count": 0
-}, {
-  "yearWeekDay": "2017w34d7",
-  "year": 2017,
-  "week": 34,
-  "weekday": 7,
   "count": 0
 }]

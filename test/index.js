@@ -38,6 +38,12 @@ describe('index', () => {
       expect(date.toString()).to.equal('Sun Sep 10 2017 10:00:00 GMT-0400 (EDT)');
     });
 
+    it('should end week on saturday', () => {
+      const date = new Date('2017-09-09 10:00:00');
+      expect(date.getDay()).to.equal(6);
+      expect(date.toString()).to.equal('Sat Sep 09 2017 10:00:00 GMT-0400 (EDT)');
+    });
+
     it('should handle sql dates', () => {
       const date = new Date('2016-02-17 18:01:32');
       expect(date.getDay()).to.equal(3);
