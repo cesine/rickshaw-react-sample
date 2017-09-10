@@ -97,3 +97,12 @@ console.log('deploysByHour', deploysByHour);
 console.log('deploysPerWeek', deploysPerWeek[deploysPerWeek.length - 1]);
 console.log('deploysPerDay', deploysPerDay[deploysPerDay.length - 3]);
 console.log(`daysWithoutDeploys: ${daysWithoutDeploys.length}`, daysWithoutDeploys[daysWithoutDeploys.length - 3]);
+
+module.exports = {
+  startDate,
+  endDate,
+  data,
+  deploysPerDay,
+  deploysPerWeek,
+  daysWithoutDeploys
+};
