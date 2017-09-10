@@ -35,7 +35,11 @@ for (i = 0; i < 52; i++) {
 }
 const weekdays = [];
 for (i = 0; i < 7; i++) {
-  weekdays[i] = i + 1;
+  weekdays[i] = i + 1; // TODO should be i
+  deploysByDayOfTheWeek[i] = {
+    weekday: i,
+    count: 0,
+  };
 }
 for (i = 0; i < 24; i++) {
   deploysByHour[i] = {
@@ -74,17 +78,18 @@ years.forEach((year) => {
 
 data.forEach((datum) => {
   deploysPerWeek.forEach((week) => {
-    if (week.week == datum.week) {
+    if (week.week === datum.week) {
       week.count++;
     }
   });
   deploysPerDay.forEach((day) => {
-    if (day.week == datum.week && day.weekday == datum.weekday) {
+    if (day.week === datum.week && day.weekday === datum.weekday) {
       day.count++;
     }
   });
 
   deploysByHour[datum.hour].count++;
+  deploysByDayOfTheWeek[datum.weekday].count++;
 });
 
 deploysPerDay.forEach((day) => {
@@ -104,5 +109,7 @@ module.exports = {
   data,
   deploysPerDay,
   deploysPerWeek,
-  daysWithoutDeploys
+  daysWithoutDeploys,
+  deploysByHour,
+  deploysByDayOfTheWeek,
 };

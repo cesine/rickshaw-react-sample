@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix",
+    "start": "node index.js",
     "test": "mocha test"
   },
   "author": "",
@@ -19,6 +20,7 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.3.0",
+    "fixturefiles": "^0.3.0",
     "mocha": "^3.5.1"
   }
 }

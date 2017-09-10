@@ -1,0 +1,3445 @@
+[{
+  "yearWeekDay": "2016w5d1",
+  "year": 2016,
+  "week": 5,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w5d2",
+  "year": 2016,
+  "week": 5,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w5d3",
+  "year": 2016,
+  "week": 5,
+  "weekday": 3,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w5d4",
+  "year": 2016,
+  "week": 5,
+  "weekday": 4,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w5d5",
+  "year": 2016,
+  "week": 5,
+  "weekday": 5,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w5d6",
+  "year": 2016,
+  "week": 5,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w5d7",
+  "year": 2016,
+  "week": 5,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w6d1",
+  "year": 2016,
+  "week": 6,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w6d2",
+  "year": 2016,
+  "week": 6,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w6d3",
+  "year": 2016,
+  "week": 6,
+  "weekday": 3,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w6d4",
+  "year": 2016,
+  "week": 6,
+  "weekday": 4,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w6d5",
+  "year": 2016,
+  "week": 6,
+  "weekday": 5,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w6d6",
+  "year": 2016,
+  "week": 6,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w6d7",
+  "year": 2016,
+  "week": 6,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w7d1",
+  "year": 2016,
+  "week": 7,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w7d2",
+  "year": 2016,
+  "week": 7,
+  "weekday": 2,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w7d3",
+  "year": 2016,
+  "week": 7,
+  "weekday": 3,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w7d4",
+  "year": 2016,
+  "week": 7,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w7d5",
+  "year": 2016,
+  "week": 7,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w7d6",
+  "year": 2016,
+  "week": 7,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w7d7",
+  "year": 2016,
+  "week": 7,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w8d1",
+  "year": 2016,
+  "week": 8,
+  "weekday": 1,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w8d2",
+  "year": 2016,
+  "week": 8,
+  "weekday": 2,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w8d3",
+  "year": 2016,
+  "week": 8,
+  "weekday": 3,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w8d4",
+  "year": 2016,
+  "week": 8,
+  "weekday": 4,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w8d5",
+  "year": 2016,
+  "week": 8,
+  "weekday": 5,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w8d6",
+  "year": 2016,
+  "week": 8,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w8d7",
+  "year": 2016,
+  "week": 8,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w9d1",
+  "year": 2016,
+  "week": 9,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w9d2",
+  "year": 2016,
+  "week": 9,
+  "weekday": 2,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w9d3",
+  "year": 2016,
+  "week": 9,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w9d4",
+  "year": 2016,
+  "week": 9,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w9d5",
+  "year": 2016,
+  "week": 9,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w9d6",
+  "year": 2016,
+  "week": 9,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w9d7",
+  "year": 2016,
+  "week": 9,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w10d1",
+  "year": 2016,
+  "week": 10,
+  "weekday": 1,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w10d2",
+  "year": 2016,
+  "week": 10,
+  "weekday": 2,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w10d3",
+  "year": 2016,
+  "week": 10,
+  "weekday": 3,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w10d4",
+  "year": 2016,
+  "week": 10,
+  "weekday": 4,
+  "count": 11
+}, {
+  "yearWeekDay": "2016w10d5",
+  "year": 2016,
+  "week": 10,
+  "weekday": 5,
+  "count": 7
+}, {
+  "yearWeekDay": "2016w10d6",
+  "year": 2016,
+  "week": 10,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w10d7",
+  "year": 2016,
+  "week": 10,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w11d1",
+  "year": 2016,
+  "week": 11,
+  "weekday": 1,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w11d2",
+  "year": 2016,
+  "week": 11,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w11d3",
+  "year": 2016,
+  "week": 11,
+  "weekday": 3,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w11d4",
+  "year": 2016,
+  "week": 11,
+  "weekday": 4,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w11d5",
+  "year": 2016,
+  "week": 11,
+  "weekday": 5,
+  "count": 7
+}, {
+  "yearWeekDay": "2016w11d6",
+  "year": 2016,
+  "week": 11,
+  "weekday": 6,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w11d7",
+  "year": 2016,
+  "week": 11,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w12d1",
+  "year": 2016,
+  "week": 12,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w12d2",
+  "year": 2016,
+  "week": 12,
+  "weekday": 2,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w12d3",
+  "year": 2016,
+  "week": 12,
+  "weekday": 3,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w12d4",
+  "year": 2016,
+  "week": 12,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w12d5",
+  "year": 2016,
+  "week": 12,
+  "weekday": 5,
+  "count": 8
+}, {
+  "yearWeekDay": "2016w12d6",
+  "year": 2016,
+  "week": 12,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w12d7",
+  "year": 2016,
+  "week": 12,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w13d1",
+  "year": 2016,
+  "week": 13,
+  "weekday": 1,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w13d2",
+  "year": 2016,
+  "week": 13,
+  "weekday": 2,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w13d3",
+  "year": 2016,
+  "week": 13,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w13d4",
+  "year": 2016,
+  "week": 13,
+  "weekday": 4,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w13d5",
+  "year": 2016,
+  "week": 13,
+  "weekday": 5,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w13d6",
+  "year": 2016,
+  "week": 13,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w13d7",
+  "year": 2016,
+  "week": 13,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w14d1",
+  "year": 2016,
+  "week": 14,
+  "weekday": 1,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w14d2",
+  "year": 2016,
+  "week": 14,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w14d3",
+  "year": 2016,
+  "week": 14,
+  "weekday": 3,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w14d4",
+  "year": 2016,
+  "week": 14,
+  "weekday": 4,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w14d5",
+  "year": 2016,
+  "week": 14,
+  "weekday": 5,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w14d6",
+  "year": 2016,
+  "week": 14,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w14d7",
+  "year": 2016,
+  "week": 14,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w15d1",
+  "year": 2016,
+  "week": 15,
+  "weekday": 1,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w15d2",
+  "year": 2016,
+  "week": 15,
+  "weekday": 2,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w15d3",
+  "year": 2016,
+  "week": 15,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w15d4",
+  "year": 2016,
+  "week": 15,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w15d5",
+  "year": 2016,
+  "week": 15,
+  "weekday": 5,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w15d6",
+  "year": 2016,
+  "week": 15,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w15d7",
+  "year": 2016,
+  "week": 15,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w16d1",
+  "year": 2016,
+  "week": 16,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w16d2",
+  "year": 2016,
+  "week": 16,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w16d3",
+  "year": 2016,
+  "week": 16,
+  "weekday": 3,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w16d4",
+  "year": 2016,
+  "week": 16,
+  "weekday": 4,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w16d5",
+  "year": 2016,
+  "week": 16,
+  "weekday": 5,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w16d6",
+  "year": 2016,
+  "week": 16,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w16d7",
+  "year": 2016,
+  "week": 16,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w17d1",
+  "year": 2016,
+  "week": 17,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w17d2",
+  "year": 2016,
+  "week": 17,
+  "weekday": 2,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w17d3",
+  "year": 2016,
+  "week": 17,
+  "weekday": 3,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w17d4",
+  "year": 2016,
+  "week": 17,
+  "weekday": 4,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w17d5",
+  "year": 2016,
+  "week": 17,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w17d6",
+  "year": 2016,
+  "week": 17,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w17d7",
+  "year": 2016,
+  "week": 17,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w18d1",
+  "year": 2016,
+  "week": 18,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w18d2",
+  "year": 2016,
+  "week": 18,
+  "weekday": 2,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w18d3",
+  "year": 2016,
+  "week": 18,
+  "weekday": 3,
+  "count": 7
+}, {
+  "yearWeekDay": "2016w18d4",
+  "year": 2016,
+  "week": 18,
+  "weekday": 4,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w18d5",
+  "year": 2016,
+  "week": 18,
+  "weekday": 5,
+  "count": 14
+}, {
+  "yearWeekDay": "2016w18d6",
+  "year": 2016,
+  "week": 18,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w18d7",
+  "year": 2016,
+  "week": 18,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w19d1",
+  "year": 2016,
+  "week": 19,
+  "weekday": 1,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w19d2",
+  "year": 2016,
+  "week": 19,
+  "weekday": 2,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w19d3",
+  "year": 2016,
+  "week": 19,
+  "weekday": 3,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w19d4",
+  "year": 2016,
+  "week": 19,
+  "weekday": 4,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w19d5",
+  "year": 2016,
+  "week": 19,
+  "weekday": 5,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w19d6",
+  "year": 2016,
+  "week": 19,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w19d7",
+  "year": 2016,
+  "week": 19,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w20d1",
+  "year": 2016,
+  "week": 20,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w20d2",
+  "year": 2016,
+  "week": 20,
+  "weekday": 2,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w20d3",
+  "year": 2016,
+  "week": 20,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w20d4",
+  "year": 2016,
+  "week": 20,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w20d5",
+  "year": 2016,
+  "week": 20,
+  "weekday": 5,
+  "count": 9
+}, {
+  "yearWeekDay": "2016w20d6",
+  "year": 2016,
+  "week": 20,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w20d7",
+  "year": 2016,
+  "week": 20,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w21d1",
+  "year": 2016,
+  "week": 21,
+  "weekday": 1,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w21d2",
+  "year": 2016,
+  "week": 21,
+  "weekday": 2,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w21d3",
+  "year": 2016,
+  "week": 21,
+  "weekday": 3,
+  "count": 8
+}, {
+  "yearWeekDay": "2016w21d4",
+  "year": 2016,
+  "week": 21,
+  "weekday": 4,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w21d5",
+  "year": 2016,
+  "week": 21,
+  "weekday": 5,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w21d6",
+  "year": 2016,
+  "week": 21,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w21d7",
+  "year": 2016,
+  "week": 21,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w22d1",
+  "year": 2016,
+  "week": 22,
+  "weekday": 1,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w22d2",
+  "year": 2016,
+  "week": 22,
+  "weekday": 2,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w22d3",
+  "year": 2016,
+  "week": 22,
+  "weekday": 3,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w22d4",
+  "year": 2016,
+  "week": 22,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w22d5",
+  "year": 2016,
+  "week": 22,
+  "weekday": 5,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w22d6",
+  "year": 2016,
+  "week": 22,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w22d7",
+  "year": 2016,
+  "week": 22,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w23d1",
+  "year": 2016,
+  "week": 23,
+  "weekday": 1,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w23d2",
+  "year": 2016,
+  "week": 23,
+  "weekday": 2,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w23d3",
+  "year": 2016,
+  "week": 23,
+  "weekday": 3,
+  "count": 18
+}, {
+  "yearWeekDay": "2016w23d4",
+  "year": 2016,
+  "week": 23,
+  "weekday": 4,
+  "count": 7
+}, {
+  "yearWeekDay": "2016w23d5",
+  "year": 2016,
+  "week": 23,
+  "weekday": 5,
+  "count": 14
+}, {
+  "yearWeekDay": "2016w23d6",
+  "year": 2016,
+  "week": 23,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w23d7",
+  "year": 2016,
+  "week": 23,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w24d1",
+  "year": 2016,
+  "week": 24,
+  "weekday": 1,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w24d2",
+  "year": 2016,
+  "week": 24,
+  "weekday": 2,
+  "count": 13
+}, {
+  "yearWeekDay": "2016w24d3",
+  "year": 2016,
+  "week": 24,
+  "weekday": 3,
+  "count": 9
+}, {
+  "yearWeekDay": "2016w24d4",
+  "year": 2016,
+  "week": 24,
+  "weekday": 4,
+  "count": 17
+}, {
+  "yearWeekDay": "2016w24d5",
+  "year": 2016,
+  "week": 24,
+  "weekday": 5,
+  "count": 15
+}, {
+  "yearWeekDay": "2016w24d6",
+  "year": 2016,
+  "week": 24,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w24d7",
+  "year": 2016,
+  "week": 24,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w25d1",
+  "year": 2016,
+  "week": 25,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w25d2",
+  "year": 2016,
+  "week": 25,
+  "weekday": 2,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w25d3",
+  "year": 2016,
+  "week": 25,
+  "weekday": 3,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w25d4",
+  "year": 2016,
+  "week": 25,
+  "weekday": 4,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w25d5",
+  "year": 2016,
+  "week": 25,
+  "weekday": 5,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w25d6",
+  "year": 2016,
+  "week": 25,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w25d7",
+  "year": 2016,
+  "week": 25,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w26d1",
+  "year": 2016,
+  "week": 26,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w26d2",
+  "year": 2016,
+  "week": 26,
+  "weekday": 2,
+  "count": 10
+}, {
+  "yearWeekDay": "2016w26d3",
+  "year": 2016,
+  "week": 26,
+  "weekday": 3,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w26d4",
+  "year": 2016,
+  "week": 26,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w26d5",
+  "year": 2016,
+  "week": 26,
+  "weekday": 5,
+  "count": 7
+}, {
+  "yearWeekDay": "2016w26d6",
+  "year": 2016,
+  "week": 26,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w26d7",
+  "year": 2016,
+  "week": 26,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w27d1",
+  "year": 2016,
+  "week": 27,
+  "weekday": 1,
+  "count": 9
+}, {
+  "yearWeekDay": "2016w27d2",
+  "year": 2016,
+  "week": 27,
+  "weekday": 2,
+  "count": 11
+}, {
+  "yearWeekDay": "2016w27d3",
+  "year": 2016,
+  "week": 27,
+  "weekday": 3,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w27d4",
+  "year": 2016,
+  "week": 27,
+  "weekday": 4,
+  "count": 9
+}, {
+  "yearWeekDay": "2016w27d5",
+  "year": 2016,
+  "week": 27,
+  "weekday": 5,
+  "count": 10
+}, {
+  "yearWeekDay": "2016w27d6",
+  "year": 2016,
+  "week": 27,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w27d7",
+  "year": 2016,
+  "week": 27,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w28d1",
+  "year": 2016,
+  "week": 28,
+  "weekday": 1,
+  "count": 7
+}, {
+  "yearWeekDay": "2016w28d2",
+  "year": 2016,
+  "week": 28,
+  "weekday": 2,
+  "count": 10
+}, {
+  "yearWeekDay": "2016w28d3",
+  "year": 2016,
+  "week": 28,
+  "weekday": 3,
+  "count": 13
+}, {
+  "yearWeekDay": "2016w28d4",
+  "year": 2016,
+  "week": 28,
+  "weekday": 4,
+  "count": 11
+}, {
+  "yearWeekDay": "2016w28d5",
+  "year": 2016,
+  "week": 28,
+  "weekday": 5,
+  "count": 13
+}, {
+  "yearWeekDay": "2016w28d6",
+  "year": 2016,
+  "week": 28,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w28d7",
+  "year": 2016,
+  "week": 28,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w29d1",
+  "year": 2016,
+  "week": 29,
+  "weekday": 1,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w29d2",
+  "year": 2016,
+  "week": 29,
+  "weekday": 2,
+  "count": 11
+}, {
+  "yearWeekDay": "2016w29d3",
+  "year": 2016,
+  "week": 29,
+  "weekday": 3,
+  "count": 15
+}, {
+  "yearWeekDay": "2016w29d4",
+  "year": 2016,
+  "week": 29,
+  "weekday": 4,
+  "count": 9
+}, {
+  "yearWeekDay": "2016w29d5",
+  "year": 2016,
+  "week": 29,
+  "weekday": 5,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w29d6",
+  "year": 2016,
+  "week": 29,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w29d7",
+  "year": 2016,
+  "week": 29,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w30d1",
+  "year": 2016,
+  "week": 30,
+  "weekday": 1,
+  "count": 10
+}, {
+  "yearWeekDay": "2016w30d2",
+  "year": 2016,
+  "week": 30,
+  "weekday": 2,
+  "count": 19
+}, {
+  "yearWeekDay": "2016w30d3",
+  "year": 2016,
+  "week": 30,
+  "weekday": 3,
+  "count": 7
+}, {
+  "yearWeekDay": "2016w30d4",
+  "year": 2016,
+  "week": 30,
+  "weekday": 4,
+  "count": 7
+}, {
+  "yearWeekDay": "2016w30d5",
+  "year": 2016,
+  "week": 30,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w30d6",
+  "year": 2016,
+  "week": 30,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w30d7",
+  "year": 2016,
+  "week": 30,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w31d1",
+  "year": 2016,
+  "week": 31,
+  "weekday": 1,
+  "count": 12
+}, {
+  "yearWeekDay": "2016w31d2",
+  "year": 2016,
+  "week": 31,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w31d3",
+  "year": 2016,
+  "week": 31,
+  "weekday": 3,
+  "count": 15
+}, {
+  "yearWeekDay": "2016w31d4",
+  "year": 2016,
+  "week": 31,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w31d5",
+  "year": 2016,
+  "week": 31,
+  "weekday": 5,
+  "count": 9
+}, {
+  "yearWeekDay": "2016w31d6",
+  "year": 2016,
+  "week": 31,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w31d7",
+  "year": 2016,
+  "week": 31,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w32d1",
+  "year": 2016,
+  "week": 32,
+  "weekday": 1,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w32d2",
+  "year": 2016,
+  "week": 32,
+  "weekday": 2,
+  "count": 7
+}, {
+  "yearWeekDay": "2016w32d3",
+  "year": 2016,
+  "week": 32,
+  "weekday": 3,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w32d4",
+  "year": 2016,
+  "week": 32,
+  "weekday": 4,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w32d5",
+  "year": 2016,
+  "week": 32,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w32d6",
+  "year": 2016,
+  "week": 32,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w32d7",
+  "year": 2016,
+  "week": 32,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w33d1",
+  "year": 2016,
+  "week": 33,
+  "weekday": 1,
+  "count": 11
+}, {
+  "yearWeekDay": "2016w33d2",
+  "year": 2016,
+  "week": 33,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w33d3",
+  "year": 2016,
+  "week": 33,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w33d4",
+  "year": 2016,
+  "week": 33,
+  "weekday": 4,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w33d5",
+  "year": 2016,
+  "week": 33,
+  "weekday": 5,
+  "count": 9
+}, {
+  "yearWeekDay": "2016w33d6",
+  "year": 2016,
+  "week": 33,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w33d7",
+  "year": 2016,
+  "week": 33,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w34d1",
+  "year": 2016,
+  "week": 34,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w34d2",
+  "year": 2016,
+  "week": 34,
+  "weekday": 2,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w34d3",
+  "year": 2016,
+  "week": 34,
+  "weekday": 3,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w34d4",
+  "year": 2016,
+  "week": 34,
+  "weekday": 4,
+  "count": 13
+}, {
+  "yearWeekDay": "2016w34d5",
+  "year": 2016,
+  "week": 34,
+  "weekday": 5,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w34d6",
+  "year": 2016,
+  "week": 34,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w34d7",
+  "year": 2016,
+  "week": 34,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w35d1",
+  "year": 2016,
+  "week": 35,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w35d2",
+  "year": 2016,
+  "week": 35,
+  "weekday": 2,
+  "count": 7
+}, {
+  "yearWeekDay": "2016w35d3",
+  "year": 2016,
+  "week": 35,
+  "weekday": 3,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w35d4",
+  "year": 2016,
+  "week": 35,
+  "weekday": 4,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w35d5",
+  "year": 2016,
+  "week": 35,
+  "weekday": 5,
+  "count": 8
+}, {
+  "yearWeekDay": "2016w35d6",
+  "year": 2016,
+  "week": 35,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w35d7",
+  "year": 2016,
+  "week": 35,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w36d1",
+  "year": 2016,
+  "week": 36,
+  "weekday": 1,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w36d2",
+  "year": 2016,
+  "week": 36,
+  "weekday": 2,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w36d3",
+  "year": 2016,
+  "week": 36,
+  "weekday": 3,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w36d4",
+  "year": 2016,
+  "week": 36,
+  "weekday": 4,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w36d5",
+  "year": 2016,
+  "week": 36,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w36d6",
+  "year": 2016,
+  "week": 36,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w36d7",
+  "year": 2016,
+  "week": 36,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w37d1",
+  "year": 2016,
+  "week": 37,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w37d2",
+  "year": 2016,
+  "week": 37,
+  "weekday": 2,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w37d3",
+  "year": 2016,
+  "week": 37,
+  "weekday": 3,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w37d4",
+  "year": 2016,
+  "week": 37,
+  "weekday": 4,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w37d5",
+  "year": 2016,
+  "week": 37,
+  "weekday": 5,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w37d6",
+  "year": 2016,
+  "week": 37,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w37d7",
+  "year": 2016,
+  "week": 37,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w38d1",
+  "year": 2016,
+  "week": 38,
+  "weekday": 1,
+  "count": 7
+}, {
+  "yearWeekDay": "2016w38d2",
+  "year": 2016,
+  "week": 38,
+  "weekday": 2,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w38d3",
+  "year": 2016,
+  "week": 38,
+  "weekday": 3,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w38d4",
+  "year": 2016,
+  "week": 38,
+  "weekday": 4,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w38d5",
+  "year": 2016,
+  "week": 38,
+  "weekday": 5,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w38d6",
+  "year": 2016,
+  "week": 38,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w38d7",
+  "year": 2016,
+  "week": 38,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w39d1",
+  "year": 2016,
+  "week": 39,
+  "weekday": 1,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w39d2",
+  "year": 2016,
+  "week": 39,
+  "weekday": 2,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w39d3",
+  "year": 2016,
+  "week": 39,
+  "weekday": 3,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w39d4",
+  "year": 2016,
+  "week": 39,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w39d5",
+  "year": 2016,
+  "week": 39,
+  "weekday": 5,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w39d6",
+  "year": 2016,
+  "week": 39,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w39d7",
+  "year": 2016,
+  "week": 39,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w40d1",
+  "year": 2016,
+  "week": 40,
+  "weekday": 1,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w40d2",
+  "year": 2016,
+  "week": 40,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w40d3",
+  "year": 2016,
+  "week": 40,
+  "weekday": 3,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w40d4",
+  "year": 2016,
+  "week": 40,
+  "weekday": 4,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w40d5",
+  "year": 2016,
+  "week": 40,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w40d6",
+  "year": 2016,
+  "week": 40,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w40d7",
+  "year": 2016,
+  "week": 40,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w41d1",
+  "year": 2016,
+  "week": 41,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w41d2",
+  "year": 2016,
+  "week": 41,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w41d3",
+  "year": 2016,
+  "week": 41,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w41d4",
+  "year": 2016,
+  "week": 41,
+  "weekday": 4,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w41d5",
+  "year": 2016,
+  "week": 41,
+  "weekday": 5,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w41d6",
+  "year": 2016,
+  "week": 41,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w41d7",
+  "year": 2016,
+  "week": 41,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w42d1",
+  "year": 2016,
+  "week": 42,
+  "weekday": 1,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w42d2",
+  "year": 2016,
+  "week": 42,
+  "weekday": 2,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w42d3",
+  "year": 2016,
+  "week": 42,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w42d4",
+  "year": 2016,
+  "week": 42,
+  "weekday": 4,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w42d5",
+  "year": 2016,
+  "week": 42,
+  "weekday": 5,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w42d6",
+  "year": 2016,
+  "week": 42,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w42d7",
+  "year": 2016,
+  "week": 42,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w43d1",
+  "year": 2016,
+  "week": 43,
+  "weekday": 1,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w43d2",
+  "year": 2016,
+  "week": 43,
+  "weekday": 2,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w43d3",
+  "year": 2016,
+  "week": 43,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w43d4",
+  "year": 2016,
+  "week": 43,
+  "weekday": 4,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w43d5",
+  "year": 2016,
+  "week": 43,
+  "weekday": 5,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w43d6",
+  "year": 2016,
+  "week": 43,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w43d7",
+  "year": 2016,
+  "week": 43,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w44d1",
+  "year": 2016,
+  "week": 44,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w44d2",
+  "year": 2016,
+  "week": 44,
+  "weekday": 2,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w44d3",
+  "year": 2016,
+  "week": 44,
+  "weekday": 3,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w44d4",
+  "year": 2016,
+  "week": 44,
+  "weekday": 4,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w44d5",
+  "year": 2016,
+  "week": 44,
+  "weekday": 5,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w44d6",
+  "year": 2016,
+  "week": 44,
+  "weekday": 6,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w44d7",
+  "year": 2016,
+  "week": 44,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w45d1",
+  "year": 2016,
+  "week": 45,
+  "weekday": 1,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w45d2",
+  "year": 2016,
+  "week": 45,
+  "weekday": 2,
+  "count": 5
+}, {
+  "yearWeekDay": "2016w45d3",
+  "year": 2016,
+  "week": 45,
+  "weekday": 3,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w45d4",
+  "year": 2016,
+  "week": 45,
+  "weekday": 4,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w45d5",
+  "year": 2016,
+  "week": 45,
+  "weekday": 5,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w45d6",
+  "year": 2016,
+  "week": 45,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w45d7",
+  "year": 2016,
+  "week": 45,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w46d1",
+  "year": 2016,
+  "week": 46,
+  "weekday": 1,
+  "count": 6
+}, {
+  "yearWeekDay": "2016w46d2",
+  "year": 2016,
+  "week": 46,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w46d3",
+  "year": 2016,
+  "week": 46,
+  "weekday": 3,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w46d4",
+  "year": 2016,
+  "week": 46,
+  "weekday": 4,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w46d5",
+  "year": 2016,
+  "week": 46,
+  "weekday": 5,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w46d6",
+  "year": 2016,
+  "week": 46,
+  "weekday": 6,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w46d7",
+  "year": 2016,
+  "week": 46,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w47d1",
+  "year": 2016,
+  "week": 47,
+  "weekday": 1,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w47d2",
+  "year": 2016,
+  "week": 47,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w47d3",
+  "year": 2016,
+  "week": 47,
+  "weekday": 3,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w47d4",
+  "year": 2016,
+  "week": 47,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w47d5",
+  "year": 2016,
+  "week": 47,
+  "weekday": 5,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w47d6",
+  "year": 2016,
+  "week": 47,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w47d7",
+  "year": 2016,
+  "week": 47,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w48d1",
+  "year": 2016,
+  "week": 48,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w48d2",
+  "year": 2016,
+  "week": 48,
+  "weekday": 2,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w48d3",
+  "year": 2016,
+  "week": 48,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w48d4",
+  "year": 2016,
+  "week": 48,
+  "weekday": 4,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w48d5",
+  "year": 2016,
+  "week": 48,
+  "weekday": 5,
+  "count": 4
+}, {
+  "yearWeekDay": "2016w48d6",
+  "year": 2016,
+  "week": 48,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w48d7",
+  "year": 2016,
+  "week": 48,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w49d1",
+  "year": 2016,
+  "week": 49,
+  "weekday": 1,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w49d2",
+  "year": 2016,
+  "week": 49,
+  "weekday": 2,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w49d3",
+  "year": 2016,
+  "week": 49,
+  "weekday": 3,
+  "count": 1
+}, {
+  "yearWeekDay": "2016w49d4",
+  "year": 2016,
+  "week": 49,
+  "weekday": 4,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w49d5",
+  "year": 2016,
+  "week": 49,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2016w49d6",
+  "year": 2016,
+  "week": 49,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w49d7",
+  "year": 2016,
+  "week": 49,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w50d1",
+  "year": 2016,
+  "week": 50,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w50d2",
+  "year": 2016,
+  "week": 50,
+  "weekday": 2,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w50d3",
+  "year": 2016,
+  "week": 50,
+  "weekday": 3,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w50d4",
+  "year": 2016,
+  "week": 50,
+  "weekday": 4,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w50d5",
+  "year": 2016,
+  "week": 50,
+  "weekday": 5,
+  "count": 2
+}, {
+  "yearWeekDay": "2016w50d6",
+  "year": 2016,
+  "week": 50,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w50d7",
+  "year": 2016,
+  "week": 50,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w51d1",
+  "year": 2016,
+  "week": 51,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w51d2",
+  "year": 2016,
+  "week": 51,
+  "weekday": 2,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w51d3",
+  "year": 2016,
+  "week": 51,
+  "weekday": 3,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w51d4",
+  "year": 2016,
+  "week": 51,
+  "weekday": 4,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w51d5",
+  "year": 2016,
+  "week": 51,
+  "weekday": 5,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w51d6",
+  "year": 2016,
+  "week": 51,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w51d7",
+  "year": 2016,
+  "week": 51,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w52d1",
+  "year": 2016,
+  "week": 52,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w52d2",
+  "year": 2016,
+  "week": 52,
+  "weekday": 2,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w52d3",
+  "year": 2016,
+  "week": 52,
+  "weekday": 3,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w52d4",
+  "year": 2016,
+  "week": 52,
+  "weekday": 4,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w52d5",
+  "year": 2016,
+  "week": 52,
+  "weekday": 5,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w52d6",
+  "year": 2016,
+  "week": 52,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2016w52d7",
+  "year": 2016,
+  "week": 52,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w1d1",
+  "year": 2017,
+  "week": 1,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w1d2",
+  "year": 2017,
+  "week": 1,
+  "weekday": 2,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w1d3",
+  "year": 2017,
+  "week": 1,
+  "weekday": 3,
+  "count": 8
+}, {
+  "yearWeekDay": "2017w1d4",
+  "year": 2017,
+  "week": 1,
+  "weekday": 4,
+  "count": 7
+}, {
+  "yearWeekDay": "2017w1d5",
+  "year": 2017,
+  "week": 1,
+  "weekday": 5,
+  "count": 5
+}, {
+  "yearWeekDay": "2017w1d6",
+  "year": 2017,
+  "week": 1,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w1d7",
+  "year": 2017,
+  "week": 1,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w2d1",
+  "year": 2017,
+  "week": 2,
+  "weekday": 1,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w2d2",
+  "year": 2017,
+  "week": 2,
+  "weekday": 2,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w2d3",
+  "year": 2017,
+  "week": 2,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w2d4",
+  "year": 2017,
+  "week": 2,
+  "weekday": 4,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w2d5",
+  "year": 2017,
+  "week": 2,
+  "weekday": 5,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w2d6",
+  "year": 2017,
+  "week": 2,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w2d7",
+  "year": 2017,
+  "week": 2,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w3d1",
+  "year": 2017,
+  "week": 3,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w3d2",
+  "year": 2017,
+  "week": 3,
+  "weekday": 2,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w3d3",
+  "year": 2017,
+  "week": 3,
+  "weekday": 3,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w3d4",
+  "year": 2017,
+  "week": 3,
+  "weekday": 4,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w3d5",
+  "year": 2017,
+  "week": 3,
+  "weekday": 5,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w3d6",
+  "year": 2017,
+  "week": 3,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w3d7",
+  "year": 2017,
+  "week": 3,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w4d1",
+  "year": 2017,
+  "week": 4,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w4d2",
+  "year": 2017,
+  "week": 4,
+  "weekday": 2,
+  "count": 6
+}, {
+  "yearWeekDay": "2017w4d3",
+  "year": 2017,
+  "week": 4,
+  "weekday": 3,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w4d4",
+  "year": 2017,
+  "week": 4,
+  "weekday": 4,
+  "count": 8
+}, {
+  "yearWeekDay": "2017w4d5",
+  "year": 2017,
+  "week": 4,
+  "weekday": 5,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w4d6",
+  "year": 2017,
+  "week": 4,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w4d7",
+  "year": 2017,
+  "week": 4,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w5d1",
+  "year": 2017,
+  "week": 5,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w5d2",
+  "year": 2017,
+  "week": 5,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w5d3",
+  "year": 2017,
+  "week": 5,
+  "weekday": 3,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w5d4",
+  "year": 2017,
+  "week": 5,
+  "weekday": 4,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w5d5",
+  "year": 2017,
+  "week": 5,
+  "weekday": 5,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w5d6",
+  "year": 2017,
+  "week": 5,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w5d7",
+  "year": 2017,
+  "week": 5,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w6d1",
+  "year": 2017,
+  "week": 6,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w6d2",
+  "year": 2017,
+  "week": 6,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w6d3",
+  "year": 2017,
+  "week": 6,
+  "weekday": 3,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w6d4",
+  "year": 2017,
+  "week": 6,
+  "weekday": 4,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w6d5",
+  "year": 2017,
+  "week": 6,
+  "weekday": 5,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w6d6",
+  "year": 2017,
+  "week": 6,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w6d7",
+  "year": 2017,
+  "week": 6,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w7d1",
+  "year": 2017,
+  "week": 7,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w7d2",
+  "year": 2017,
+  "week": 7,
+  "weekday": 2,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w7d3",
+  "year": 2017,
+  "week": 7,
+  "weekday": 3,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w7d4",
+  "year": 2017,
+  "week": 7,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w7d5",
+  "year": 2017,
+  "week": 7,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w7d6",
+  "year": 2017,
+  "week": 7,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w7d7",
+  "year": 2017,
+  "week": 7,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w8d1",
+  "year": 2017,
+  "week": 8,
+  "weekday": 1,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w8d2",
+  "year": 2017,
+  "week": 8,
+  "weekday": 2,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w8d3",
+  "year": 2017,
+  "week": 8,
+  "weekday": 3,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w8d4",
+  "year": 2017,
+  "week": 8,
+  "weekday": 4,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w8d5",
+  "year": 2017,
+  "week": 8,
+  "weekday": 5,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w8d6",
+  "year": 2017,
+  "week": 8,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w8d7",
+  "year": 2017,
+  "week": 8,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w9d1",
+  "year": 2017,
+  "week": 9,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w9d2",
+  "year": 2017,
+  "week": 9,
+  "weekday": 2,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w9d3",
+  "year": 2017,
+  "week": 9,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w9d4",
+  "year": 2017,
+  "week": 9,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w9d5",
+  "year": 2017,
+  "week": 9,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w9d6",
+  "year": 2017,
+  "week": 9,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w9d7",
+  "year": 2017,
+  "week": 9,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w10d1",
+  "year": 2017,
+  "week": 10,
+  "weekday": 1,
+  "count": 5
+}, {
+  "yearWeekDay": "2017w10d2",
+  "year": 2017,
+  "week": 10,
+  "weekday": 2,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w10d3",
+  "year": 2017,
+  "week": 10,
+  "weekday": 3,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w10d4",
+  "year": 2017,
+  "week": 10,
+  "weekday": 4,
+  "count": 11
+}, {
+  "yearWeekDay": "2017w10d5",
+  "year": 2017,
+  "week": 10,
+  "weekday": 5,
+  "count": 7
+}, {
+  "yearWeekDay": "2017w10d6",
+  "year": 2017,
+  "week": 10,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w10d7",
+  "year": 2017,
+  "week": 10,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w11d1",
+  "year": 2017,
+  "week": 11,
+  "weekday": 1,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w11d2",
+  "year": 2017,
+  "week": 11,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w11d3",
+  "year": 2017,
+  "week": 11,
+  "weekday": 3,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w11d4",
+  "year": 2017,
+  "week": 11,
+  "weekday": 4,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w11d5",
+  "year": 2017,
+  "week": 11,
+  "weekday": 5,
+  "count": 7
+}, {
+  "yearWeekDay": "2017w11d6",
+  "year": 2017,
+  "week": 11,
+  "weekday": 6,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w11d7",
+  "year": 2017,
+  "week": 11,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w12d1",
+  "year": 2017,
+  "week": 12,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w12d2",
+  "year": 2017,
+  "week": 12,
+  "weekday": 2,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w12d3",
+  "year": 2017,
+  "week": 12,
+  "weekday": 3,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w12d4",
+  "year": 2017,
+  "week": 12,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w12d5",
+  "year": 2017,
+  "week": 12,
+  "weekday": 5,
+  "count": 8
+}, {
+  "yearWeekDay": "2017w12d6",
+  "year": 2017,
+  "week": 12,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w12d7",
+  "year": 2017,
+  "week": 12,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w13d1",
+  "year": 2017,
+  "week": 13,
+  "weekday": 1,
+  "count": 5
+}, {
+  "yearWeekDay": "2017w13d2",
+  "year": 2017,
+  "week": 13,
+  "weekday": 2,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w13d3",
+  "year": 2017,
+  "week": 13,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w13d4",
+  "year": 2017,
+  "week": 13,
+  "weekday": 4,
+  "count": 5
+}, {
+  "yearWeekDay": "2017w13d5",
+  "year": 2017,
+  "week": 13,
+  "weekday": 5,
+  "count": 6
+}, {
+  "yearWeekDay": "2017w13d6",
+  "year": 2017,
+  "week": 13,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w13d7",
+  "year": 2017,
+  "week": 13,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w14d1",
+  "year": 2017,
+  "week": 14,
+  "weekday": 1,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w14d2",
+  "year": 2017,
+  "week": 14,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w14d3",
+  "year": 2017,
+  "week": 14,
+  "weekday": 3,
+  "count": 5
+}, {
+  "yearWeekDay": "2017w14d4",
+  "year": 2017,
+  "week": 14,
+  "weekday": 4,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w14d5",
+  "year": 2017,
+  "week": 14,
+  "weekday": 5,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w14d6",
+  "year": 2017,
+  "week": 14,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w14d7",
+  "year": 2017,
+  "week": 14,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w15d1",
+  "year": 2017,
+  "week": 15,
+  "weekday": 1,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w15d2",
+  "year": 2017,
+  "week": 15,
+  "weekday": 2,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w15d3",
+  "year": 2017,
+  "week": 15,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w15d4",
+  "year": 2017,
+  "week": 15,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w15d5",
+  "year": 2017,
+  "week": 15,
+  "weekday": 5,
+  "count": 6
+}, {
+  "yearWeekDay": "2017w15d6",
+  "year": 2017,
+  "week": 15,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w15d7",
+  "year": 2017,
+  "week": 15,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w16d1",
+  "year": 2017,
+  "week": 16,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w16d2",
+  "year": 2017,
+  "week": 16,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w16d3",
+  "year": 2017,
+  "week": 16,
+  "weekday": 3,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w16d4",
+  "year": 2017,
+  "week": 16,
+  "weekday": 4,
+  "count": 6
+}, {
+  "yearWeekDay": "2017w16d5",
+  "year": 2017,
+  "week": 16,
+  "weekday": 5,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w16d6",
+  "year": 2017,
+  "week": 16,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w16d7",
+  "year": 2017,
+  "week": 16,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w17d1",
+  "year": 2017,
+  "week": 17,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w17d2",
+  "year": 2017,
+  "week": 17,
+  "weekday": 2,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w17d3",
+  "year": 2017,
+  "week": 17,
+  "weekday": 3,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w17d4",
+  "year": 2017,
+  "week": 17,
+  "weekday": 4,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w17d5",
+  "year": 2017,
+  "week": 17,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w17d6",
+  "year": 2017,
+  "week": 17,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w17d7",
+  "year": 2017,
+  "week": 17,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w18d1",
+  "year": 2017,
+  "week": 18,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w18d2",
+  "year": 2017,
+  "week": 18,
+  "weekday": 2,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w18d3",
+  "year": 2017,
+  "week": 18,
+  "weekday": 3,
+  "count": 7
+}, {
+  "yearWeekDay": "2017w18d4",
+  "year": 2017,
+  "week": 18,
+  "weekday": 4,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w18d5",
+  "year": 2017,
+  "week": 18,
+  "weekday": 5,
+  "count": 14
+}, {
+  "yearWeekDay": "2017w18d6",
+  "year": 2017,
+  "week": 18,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w18d7",
+  "year": 2017,
+  "week": 18,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w19d1",
+  "year": 2017,
+  "week": 19,
+  "weekday": 1,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w19d2",
+  "year": 2017,
+  "week": 19,
+  "weekday": 2,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w19d3",
+  "year": 2017,
+  "week": 19,
+  "weekday": 3,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w19d4",
+  "year": 2017,
+  "week": 19,
+  "weekday": 4,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w19d5",
+  "year": 2017,
+  "week": 19,
+  "weekday": 5,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w19d6",
+  "year": 2017,
+  "week": 19,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w19d7",
+  "year": 2017,
+  "week": 19,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w20d1",
+  "year": 2017,
+  "week": 20,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w20d2",
+  "year": 2017,
+  "week": 20,
+  "weekday": 2,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w20d3",
+  "year": 2017,
+  "week": 20,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w20d4",
+  "year": 2017,
+  "week": 20,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w20d5",
+  "year": 2017,
+  "week": 20,
+  "weekday": 5,
+  "count": 9
+}, {
+  "yearWeekDay": "2017w20d6",
+  "year": 2017,
+  "week": 20,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w20d7",
+  "year": 2017,
+  "week": 20,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w21d1",
+  "year": 2017,
+  "week": 21,
+  "weekday": 1,
+  "count": 6
+}, {
+  "yearWeekDay": "2017w21d2",
+  "year": 2017,
+  "week": 21,
+  "weekday": 2,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w21d3",
+  "year": 2017,
+  "week": 21,
+  "weekday": 3,
+  "count": 8
+}, {
+  "yearWeekDay": "2017w21d4",
+  "year": 2017,
+  "week": 21,
+  "weekday": 4,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w21d5",
+  "year": 2017,
+  "week": 21,
+  "weekday": 5,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w21d6",
+  "year": 2017,
+  "week": 21,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w21d7",
+  "year": 2017,
+  "week": 21,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w22d1",
+  "year": 2017,
+  "week": 22,
+  "weekday": 1,
+  "count": 5
+}, {
+  "yearWeekDay": "2017w22d2",
+  "year": 2017,
+  "week": 22,
+  "weekday": 2,
+  "count": 5
+}, {
+  "yearWeekDay": "2017w22d3",
+  "year": 2017,
+  "week": 22,
+  "weekday": 3,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w22d4",
+  "year": 2017,
+  "week": 22,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w22d5",
+  "year": 2017,
+  "week": 22,
+  "weekday": 5,
+  "count": 6
+}, {
+  "yearWeekDay": "2017w22d6",
+  "year": 2017,
+  "week": 22,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w22d7",
+  "year": 2017,
+  "week": 22,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w23d1",
+  "year": 2017,
+  "week": 23,
+  "weekday": 1,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w23d2",
+  "year": 2017,
+  "week": 23,
+  "weekday": 2,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w23d3",
+  "year": 2017,
+  "week": 23,
+  "weekday": 3,
+  "count": 18
+}, {
+  "yearWeekDay": "2017w23d4",
+  "year": 2017,
+  "week": 23,
+  "weekday": 4,
+  "count": 7
+}, {
+  "yearWeekDay": "2017w23d5",
+  "year": 2017,
+  "week": 23,
+  "weekday": 5,
+  "count": 14
+}, {
+  "yearWeekDay": "2017w23d6",
+  "year": 2017,
+  "week": 23,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w23d7",
+  "year": 2017,
+  "week": 23,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w24d1",
+  "year": 2017,
+  "week": 24,
+  "weekday": 1,
+  "count": 5
+}, {
+  "yearWeekDay": "2017w24d2",
+  "year": 2017,
+  "week": 24,
+  "weekday": 2,
+  "count": 13
+}, {
+  "yearWeekDay": "2017w24d3",
+  "year": 2017,
+  "week": 24,
+  "weekday": 3,
+  "count": 9
+}, {
+  "yearWeekDay": "2017w24d4",
+  "year": 2017,
+  "week": 24,
+  "weekday": 4,
+  "count": 17
+}, {
+  "yearWeekDay": "2017w24d5",
+  "year": 2017,
+  "week": 24,
+  "weekday": 5,
+  "count": 15
+}, {
+  "yearWeekDay": "2017w24d6",
+  "year": 2017,
+  "week": 24,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w24d7",
+  "year": 2017,
+  "week": 24,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w25d1",
+  "year": 2017,
+  "week": 25,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w25d2",
+  "year": 2017,
+  "week": 25,
+  "weekday": 2,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w25d3",
+  "year": 2017,
+  "week": 25,
+  "weekday": 3,
+  "count": 6
+}, {
+  "yearWeekDay": "2017w25d4",
+  "year": 2017,
+  "week": 25,
+  "weekday": 4,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w25d5",
+  "year": 2017,
+  "week": 25,
+  "weekday": 5,
+  "count": 6
+}, {
+  "yearWeekDay": "2017w25d6",
+  "year": 2017,
+  "week": 25,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w25d7",
+  "year": 2017,
+  "week": 25,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w26d1",
+  "year": 2017,
+  "week": 26,
+  "weekday": 1,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w26d2",
+  "year": 2017,
+  "week": 26,
+  "weekday": 2,
+  "count": 10
+}, {
+  "yearWeekDay": "2017w26d3",
+  "year": 2017,
+  "week": 26,
+  "weekday": 3,
+  "count": 6
+}, {
+  "yearWeekDay": "2017w26d4",
+  "year": 2017,
+  "week": 26,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w26d5",
+  "year": 2017,
+  "week": 26,
+  "weekday": 5,
+  "count": 7
+}, {
+  "yearWeekDay": "2017w26d6",
+  "year": 2017,
+  "week": 26,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w26d7",
+  "year": 2017,
+  "week": 26,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w27d1",
+  "year": 2017,
+  "week": 27,
+  "weekday": 1,
+  "count": 9
+}, {
+  "yearWeekDay": "2017w27d2",
+  "year": 2017,
+  "week": 27,
+  "weekday": 2,
+  "count": 11
+}, {
+  "yearWeekDay": "2017w27d3",
+  "year": 2017,
+  "week": 27,
+  "weekday": 3,
+  "count": 5
+}, {
+  "yearWeekDay": "2017w27d4",
+  "year": 2017,
+  "week": 27,
+  "weekday": 4,
+  "count": 9
+}, {
+  "yearWeekDay": "2017w27d5",
+  "year": 2017,
+  "week": 27,
+  "weekday": 5,
+  "count": 10
+}, {
+  "yearWeekDay": "2017w27d6",
+  "year": 2017,
+  "week": 27,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w27d7",
+  "year": 2017,
+  "week": 27,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w28d1",
+  "year": 2017,
+  "week": 28,
+  "weekday": 1,
+  "count": 7
+}, {
+  "yearWeekDay": "2017w28d2",
+  "year": 2017,
+  "week": 28,
+  "weekday": 2,
+  "count": 10
+}, {
+  "yearWeekDay": "2017w28d3",
+  "year": 2017,
+  "week": 28,
+  "weekday": 3,
+  "count": 13
+}, {
+  "yearWeekDay": "2017w28d4",
+  "year": 2017,
+  "week": 28,
+  "weekday": 4,
+  "count": 11
+}, {
+  "yearWeekDay": "2017w28d5",
+  "year": 2017,
+  "week": 28,
+  "weekday": 5,
+  "count": 13
+}, {
+  "yearWeekDay": "2017w28d6",
+  "year": 2017,
+  "week": 28,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w28d7",
+  "year": 2017,
+  "week": 28,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w29d1",
+  "year": 2017,
+  "week": 29,
+  "weekday": 1,
+  "count": 5
+}, {
+  "yearWeekDay": "2017w29d2",
+  "year": 2017,
+  "week": 29,
+  "weekday": 2,
+  "count": 11
+}, {
+  "yearWeekDay": "2017w29d3",
+  "year": 2017,
+  "week": 29,
+  "weekday": 3,
+  "count": 15
+}, {
+  "yearWeekDay": "2017w29d4",
+  "year": 2017,
+  "week": 29,
+  "weekday": 4,
+  "count": 9
+}, {
+  "yearWeekDay": "2017w29d5",
+  "year": 2017,
+  "week": 29,
+  "weekday": 5,
+  "count": 6
+}, {
+  "yearWeekDay": "2017w29d6",
+  "year": 2017,
+  "week": 29,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w29d7",
+  "year": 2017,
+  "week": 29,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w30d1",
+  "year": 2017,
+  "week": 30,
+  "weekday": 1,
+  "count": 10
+}, {
+  "yearWeekDay": "2017w30d2",
+  "year": 2017,
+  "week": 30,
+  "weekday": 2,
+  "count": 19
+}, {
+  "yearWeekDay": "2017w30d3",
+  "year": 2017,
+  "week": 30,
+  "weekday": 3,
+  "count": 7
+}, {
+  "yearWeekDay": "2017w30d4",
+  "year": 2017,
+  "week": 30,
+  "weekday": 4,
+  "count": 7
+}, {
+  "yearWeekDay": "2017w30d5",
+  "year": 2017,
+  "week": 30,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w30d6",
+  "year": 2017,
+  "week": 30,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w30d7",
+  "year": 2017,
+  "week": 30,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w31d1",
+  "year": 2017,
+  "week": 31,
+  "weekday": 1,
+  "count": 12
+}, {
+  "yearWeekDay": "2017w31d2",
+  "year": 2017,
+  "week": 31,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w31d3",
+  "year": 2017,
+  "week": 31,
+  "weekday": 3,
+  "count": 15
+}, {
+  "yearWeekDay": "2017w31d4",
+  "year": 2017,
+  "week": 31,
+  "weekday": 4,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w31d5",
+  "year": 2017,
+  "week": 31,
+  "weekday": 5,
+  "count": 9
+}, {
+  "yearWeekDay": "2017w31d6",
+  "year": 2017,
+  "week": 31,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w31d7",
+  "year": 2017,
+  "week": 31,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w32d1",
+  "year": 2017,
+  "week": 32,
+  "weekday": 1,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w32d2",
+  "year": 2017,
+  "week": 32,
+  "weekday": 2,
+  "count": 7
+}, {
+  "yearWeekDay": "2017w32d3",
+  "year": 2017,
+  "week": 32,
+  "weekday": 3,
+  "count": 6
+}, {
+  "yearWeekDay": "2017w32d4",
+  "year": 2017,
+  "week": 32,
+  "weekday": 4,
+  "count": 1
+}, {
+  "yearWeekDay": "2017w32d5",
+  "year": 2017,
+  "week": 32,
+  "weekday": 5,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w32d6",
+  "year": 2017,
+  "week": 32,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w32d7",
+  "year": 2017,
+  "week": 32,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w33d1",
+  "year": 2017,
+  "week": 33,
+  "weekday": 1,
+  "count": 11
+}, {
+  "yearWeekDay": "2017w33d2",
+  "year": 2017,
+  "week": 33,
+  "weekday": 2,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w33d3",
+  "year": 2017,
+  "week": 33,
+  "weekday": 3,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w33d4",
+  "year": 2017,
+  "week": 33,
+  "weekday": 4,
+  "count": 3
+}, {
+  "yearWeekDay": "2017w33d5",
+  "year": 2017,
+  "week": 33,
+  "weekday": 5,
+  "count": 9
+}, {
+  "yearWeekDay": "2017w33d6",
+  "year": 2017,
+  "week": 33,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w33d7",
+  "year": 2017,
+  "week": 33,
+  "weekday": 7,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w34d1",
+  "year": 2017,
+  "week": 34,
+  "weekday": 1,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w34d2",
+  "year": 2017,
+  "week": 34,
+  "weekday": 2,
+  "count": 5
+}, {
+  "yearWeekDay": "2017w34d3",
+  "year": 2017,
+  "week": 34,
+  "weekday": 3,
+  "count": 2
+}, {
+  "yearWeekDay": "2017w34d4",
+  "year": 2017,
+  "week": 34,
+  "weekday": 4,
+  "count": 13
+}, {
+  "yearWeekDay": "2017w34d5",
+  "year": 2017,
+  "week": 34,
+  "weekday": 5,
+  "count": 4
+}, {
+  "yearWeekDay": "2017w34d6",
+  "year": 2017,
+  "week": 34,
+  "weekday": 6,
+  "count": 0
+}, {
+  "yearWeekDay": "2017w34d7",
+  "year": 2017,
+  "week": 34,
+  "weekday": 7,
+  "count": 0
+}]

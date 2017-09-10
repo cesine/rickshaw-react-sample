@@ -1,0 +1,73 @@
+[{
+  "hour": 0,
+  "count": 1
+}, {
+  "hour": 1,
+  "count": 1
+}, {
+  "hour": 2,
+  "count": 0
+}, {
+  "hour": 3,
+  "count": 1
+}, {
+  "hour": 4,
+  "count": 2
+}, {
+  "hour": 5,
+  "count": 2
+}, {
+  "hour": 6,
+  "count": 0
+}, {
+  "hour": 7,
+  "count": 1
+}, {
+  "hour": 8,
+  "count": 5
+}, {
+  "hour": 9,
+  "count": 25
+}, {
+  "hour": 10,
+  "count": 98
+}, {
+  "hour": 11,
+  "count": 113
+}, {
+  "hour": 12,
+  "count": 101
+}, {
+  "hour": 13,
+  "count": 106
+}, {
+  "hour": 14,
+  "count": 137
+}, {
+  "hour": 15,
+  "count": 120
+}, {
+  "hour": 16,
+  "count": 111
+}, {
+  "hour": 17,
+  "count": 107
+}, {
+  "hour": 18,
+  "count": 65
+}, {
+  "hour": 19,
+  "count": 24
+}, {
+  "hour": 20,
+  "count": 3
+}, {
+  "hour": 21,
+  "count": 5
+}, {
+  "hour": 22,
+  "count": 4
+}, {
+  "hour": 23,
+  "count": 5
+}]
