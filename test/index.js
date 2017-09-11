@@ -5,7 +5,7 @@ const fixtures = require('fixturefiles');
 describe('index', () => {
   describe('current dates', () => {
     it('should start in feb 2016', () => {
-      console.log(index.startDate);
+      // console.log(index.startDate);
       expect(index.startDate).to.deep.equal({
         timestamp: '2016-02-17 18:01:32',
         date: new Date('2016-02-17T23:01:32.000Z'),
@@ -18,7 +18,7 @@ describe('index', () => {
     });
 
     it('should end in sept 2017', () => {
-      console.log(index.endDate);
+      // console.log(index.endDate);
       expect(index.endDate).to.deep.equal({
         timestamp: '2017-09-08 17:58:31',
         date: new Date('2017-09-08T21:58:31.000Z'),
@@ -53,7 +53,7 @@ describe('index', () => {
 
   describe('dates', () => {
     it('should match fixture data', () => {
-      console.log(JSON.stringify(index.data));
+      // console.log(JSON.stringify(index.data));
       const strigifiedData = index.data.map((item) => {
         if (item.date.toISOString) {
           item.date = item.date.toISOString();
@@ -66,7 +66,7 @@ describe('index', () => {
 
   describe('deploysPerDay', () => {
     it('should match fixture deploysPerDay', () => {
-      console.log(JSON.stringify(index.deploysPerDay));
+      // console.log(JSON.stringify(index.deploysPerDay));
       const strigifiedData = index.deploysPerDay.map((item) => {
         item.deploys.map((deploy) => {
           if (deploy.date.toISOString) {
@@ -82,7 +82,7 @@ describe('index', () => {
 
   describe('deploysPerWeek', () => {
     it('should match fixture deploysPerWeek', () => {
-      console.log(JSON.stringify(index.deploysPerWeek));
+      // console.log(JSON.stringify(index.deploysPerWeek));
       const strigifiedData = index.deploysPerWeek.map((item) => {
         item.deploys.map((deploy) => {
           if (deploy.date.toISOString) {
@@ -98,21 +98,21 @@ describe('index', () => {
 
   describe('daysWithoutDeploys', () => {
     it('should match fixture daysWithoutDeploys', () => {
-      console.log(JSON.stringify(index.daysWithoutDeploys));
+      // console.log(JSON.stringify(index.daysWithoutDeploys));
       expect(index.daysWithoutDeploys).to.deep.equal(fixtures.daysWithoutDeploys);
     });
   });
 
   describe('deploysByHour', () => {
     it('should match fixture deploysByHour', () => {
-      console.log(JSON.stringify(index.deploysByHour));
+      // console.log(JSON.stringify(index.deploysByHour));
       expect(index.deploysByHour).to.deep.equal(fixtures.deploysByHour);
     });
   });
 
   describe('deploysByDayOfTheWeek', () => {
     it('should match fixture deploysByDayOfTheWeek', () => {
-      console.log(JSON.stringify(index.deploysByDayOfTheWeek));
+      // console.log(JSON.stringify(index.deploysByDayOfTheWeek));
       expect(index.deploysByDayOfTheWeek).to.deep.equal(fixtures.deploysByDayOfTheWeek);
     });
   });

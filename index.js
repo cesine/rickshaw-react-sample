@@ -16,7 +16,6 @@ const data = timestamps.map((timestamp) => {
     hour: date.getHours(),
   };
 });
-console.log(data[0], data[data.length - 1]);
 
 const startDate = data[0];
 const endDate = data[data.length - 1];
@@ -101,11 +100,6 @@ deploysPerDay.forEach((day) => {
     daysWithoutDeploys.push(day);
   }
 });
-
-console.log('deploysByHour', deploysByHour);
-console.log('deploysPerWeek', deploysPerWeek[deploysPerWeek.length - 1]);
-console.log('deploysPerDay', deploysPerDay[deploysPerDay.length - 3]);
-console.log(`daysWithoutDeploys: ${daysWithoutDeploys.length}`, daysWithoutDeploys[daysWithoutDeploys.length - 3]);
 
 module.exports = {
   startDate,
