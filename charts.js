@@ -94,6 +94,16 @@ const deploysPerDay = new Rickshaw.Graph({
   ]
 });
 
+new Rickshaw.Graph.DragZoom({
+  graph: deploysPerDay,
+  opacity: 0.5,
+  fill: 'steelblue',
+  minimumTimeSelection: 15,
+  callback: function(args) {
+    console.log(args.range, args.endTime);
+  }
+});
+
 new Rickshaw.Graph.HoverDetail({
   graph: deploysPerDay,
   xFormatter: function(x) {
@@ -129,6 +139,16 @@ const daysWithoutDeploys = new Rickshaw.Graph({
   ]
 });
 
+new Rickshaw.Graph.DragZoom({
+  graph: daysWithoutDeploys,
+  opacity: 0.5,
+  fill: 'steelblue',
+  minimumTimeSelection: 15,
+  callback: function(args) {
+    console.log(args.range, args.endTime);
+  }
+});
+
 new Rickshaw.Graph.HoverDetail({
   graph: daysWithoutDeploys,
   xFormatter: function(x) {
@@ -161,6 +181,16 @@ const deploysPerWeek = new Rickshaw.Graph({
       opacity: 0.5
     }
   ]
+});
+
+new Rickshaw.Graph.DragZoom({
+  graph: deploysPerWeek,
+  opacity: 0.5,
+  fill: 'steelblue',
+  minimumTimeSelection: 15,
+  callback: function(args) {
+    console.log(args.range, args.endTime);
+  }
 });
 
 new Rickshaw.Graph.HoverDetail({
