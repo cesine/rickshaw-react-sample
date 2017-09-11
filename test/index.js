@@ -80,6 +80,13 @@ describe('index', () => {
     });
   });
 
+  describe('deploysPerDayHistogram', () => {
+    it.only('should match fixture deploysPerDayHistogram', () => {
+      console.log(JSON.stringify(index.deploysPerDayHistogram));
+      expect(index.deploysPerDayHistogram).to.deep.equal(fixtures.deploysPerDayHistogram);
+    });
+  });
+
   describe('deploysPerWeek', () => {
     it('should match fixture deploysPerWeek', () => {
       // console.log(JSON.stringify(index.deploysPerWeek));

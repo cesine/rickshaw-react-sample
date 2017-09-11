@@ -21,6 +21,7 @@ const startDate = data[0];
 const endDate = data[data.length - 1];
 
 const deploysPerDay = [];
+const deploysPerDayHistogram = [];
 const deploysPerWeek = [];
 const daysWithoutDeploys = [];
 const deploysByHour = [];
@@ -44,6 +45,13 @@ for (i = 0; i < 24; i++) {
   deploysByHour[i] = {
     hour: i,
     count: 0,
+  };
+}
+// assuming max deploys per day of 16
+for (i = 0; i < 16; i++) {
+  deploysPerDayHistogram[i] = {
+    freq: 0,
+    count: i,
   };
 }
 
@@ -96,8 +104,15 @@ data.forEach((datum) => {
 });
 
 deploysPerDay.forEach((day) => {
-  if (!day.count && day.weekday !== 0 && day.weekday !== 6) {
-    daysWithoutDeploys.push(day);
+  if (day.weekday !== 0 && day.weekday !== 6) {
+    if (!day.count) {
+      daysWithoutDeploys.push(day);
+    }
+    deploysPerDayHistogram[day.count] = deploysPerDayHistogram[day.count] || {
+      count: day.count,
+      freq: 0
+    }
+    deploysPerDayHistogram[day.count].freq++;
   }
 });
 
@@ -106,6 +121,7 @@ module.exports = {
   endDate,
   data,
   deploysPerDay,
+  deploysPerDayHistogram,
   deploysPerWeek,
   daysWithoutDeploys,
   deploysByHour,
