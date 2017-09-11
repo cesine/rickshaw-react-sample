@@ -55,7 +55,9 @@ describe('index', () => {
     it('should match fixture data', () => {
       console.log(JSON.stringify(index.data));
       const strigifiedData = index.data.map((item) => {
-        item.date = item.date.toISOString();
+        if (item.date.toISOString) {
+          item.date = item.date.toISOString();
+        }
         return item;
       });
       expect(strigifiedData).to.deep.equal(fixtures.data);
@@ -65,14 +67,32 @@ describe('index', () => {
   describe('deploysPerDay', () => {
     it('should match fixture deploysPerDay', () => {
       console.log(JSON.stringify(index.deploysPerDay));
-      expect(index.deploysPerDay).to.deep.equal(fixtures.deploysPerDay);
+      const strigifiedData = index.deploysPerDay.map((item) => {
+        item.deploys.map((deploy) => {
+          if (deploy.date.toISOString) {
+            deploy.date = deploy.date.toISOString();
+          }
+          return deploy;
+        });
+        return item;
+      });
+      expect(strigifiedData).to.deep.equal(fixtures.deploysPerDay);
     });
   });
 
   describe('deploysPerWeek', () => {
     it('should match fixture deploysPerWeek', () => {
       console.log(JSON.stringify(index.deploysPerWeek));
-      expect(index.deploysPerWeek).to.deep.equal(fixtures.deploysPerWeek);
+      const strigifiedData = index.deploysPerWeek.map((item) => {
+        item.deploys.map((deploy) => {
+          if (deploy.date.toISOString) {
+            deploy.date = deploy.date.toISOString();
+          }
+          return deploy;
+        });
+        return item;
+      });
+      expect(strigifiedData).to.deep.equal(fixtures.deploysPerWeek);
     });
   });
 

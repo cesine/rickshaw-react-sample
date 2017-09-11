@@ -62,6 +62,7 @@ years.forEach((year) => {
       year,
       week,
       count: 0,
+      deploys: [],
     });
 
     weekdays.forEach((weekday) => {
@@ -71,6 +72,7 @@ years.forEach((year) => {
         week,
         weekday,
         count: 0,
+        deploys: [],
       });
     });
   });
@@ -78,13 +80,15 @@ years.forEach((year) => {
 
 data.forEach((datum) => {
   deploysPerWeek.forEach((week) => {
-    if (week.week === datum.week) {
+    if (week.year === datum.year && week.week === datum.week) {
       week.count++;
+      week.deploys.push(datum);
     }
   });
   deploysPerDay.forEach((day) => {
-    if (day.week === datum.week && day.weekday === datum.weekday) {
+    if (day.year === datum.year && day.week === datum.week && day.weekday === datum.weekday) {
       day.count++;
+      day.deploys.push(datum);
     }
   });
 

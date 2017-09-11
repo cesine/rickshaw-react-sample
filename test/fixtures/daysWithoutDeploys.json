@@ -1,343 +1,778 @@
 [{
+  "yearWeekDay": "2016w5d1",
+  "year": 2016,
+  "week": 5,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w5d2",
+  "year": 2016,
+  "week": 5,
+  "weekday": 2,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w5d4",
+  "year": 2016,
+  "week": 5,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w5d5",
+  "year": 2016,
+  "week": 5,
+  "weekday": 5,
+  "count": 0,
+  "deploys": []
+}, {
   "yearWeekDay": "2016w6d1",
   "year": 2016,
   "week": 6,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w6d2",
+  "year": 2016,
+  "week": 6,
+  "weekday": 2,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w6d3",
+  "year": 2016,
+  "week": 6,
+  "weekday": 3,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w6d4",
+  "year": 2016,
+  "week": 6,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w6d5",
+  "year": 2016,
+  "week": 6,
+  "weekday": 5,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w7d1",
+  "year": 2016,
+  "week": 7,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w7d2",
+  "year": 2016,
+  "week": 7,
+  "weekday": 2,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w7d3",
+  "year": 2016,
+  "week": 7,
+  "weekday": 3,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w7d4",
+  "year": 2016,
+  "week": 7,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w7d5",
+  "year": 2016,
+  "week": 7,
+  "weekday": 5,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w8d1",
+  "year": 2016,
+  "week": 8,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w8d2",
+  "year": 2016,
+  "week": 8,
+  "weekday": 2,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w8d3",
+  "year": 2016,
+  "week": 8,
+  "weekday": 3,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w8d5",
+  "year": 2016,
+  "week": 8,
+  "weekday": 5,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w9d1",
   "year": 2016,
   "week": 9,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w9d2",
+  "year": 2016,
+  "week": 9,
+  "weekday": 2,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w9d5",
+  "year": 2016,
+  "week": 9,
+  "weekday": 5,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w10d2",
+  "year": 2016,
+  "week": 10,
+  "weekday": 2,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w10d3",
+  "year": 2016,
+  "week": 10,
+  "weekday": 3,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w11d1",
+  "year": 2016,
+  "week": 11,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w11d2",
+  "year": 2016,
+  "week": 11,
+  "weekday": 2,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w11d4",
+  "year": 2016,
+  "week": 11,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w12d1",
   "year": 2016,
   "week": 12,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w12d2",
+  "year": 2016,
+  "week": 12,
+  "weekday": 2,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w12d3",
   "year": 2016,
   "week": 12,
   "weekday": 3,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w14d1",
+  "year": 2016,
+  "week": 14,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w14d2",
+  "year": 2016,
+  "week": 14,
+  "weekday": 2,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w14d5",
   "year": 2016,
   "week": 14,
   "weekday": 5,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w15d3",
+  "year": 2016,
+  "week": 15,
+  "weekday": 3,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w15d4",
+  "year": 2016,
+  "week": 15,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w16d1",
   "year": 2016,
   "week": 16,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w16d2",
+  "year": 2016,
+  "week": 16,
+  "weekday": 2,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w16d3",
+  "year": 2016,
+  "week": 16,
+  "weekday": 3,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w16d5",
   "year": 2016,
   "week": 16,
   "weekday": 5,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w17d2",
+  "year": 2016,
+  "week": 17,
+  "weekday": 2,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w17d3",
   "year": 2016,
   "week": 17,
   "weekday": 3,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w17d4",
+  "year": 2016,
+  "week": 17,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w18d1",
+  "year": 2016,
+  "week": 18,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w18d4",
+  "year": 2016,
+  "week": 18,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w19d1",
+  "year": 2016,
+  "week": 19,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w19d2",
   "year": 2016,
   "week": 19,
   "weekday": 2,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w19d3",
   "year": 2016,
   "week": 19,
   "weekday": 3,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w19d5",
+  "year": 2016,
+  "week": 19,
+  "weekday": 5,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w20d1",
   "year": 2016,
   "week": 20,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w20d2",
   "year": 2016,
   "week": 20,
   "weekday": 2,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w20d4",
+  "year": 2016,
+  "week": 20,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w21d2",
   "year": 2016,
   "week": 21,
   "weekday": 2,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w23d1",
+  "year": 2016,
+  "week": 23,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w25d1",
   "year": 2016,
   "week": 25,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w25d2",
   "year": 2016,
   "week": 25,
   "weekday": 2,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w25d4",
+  "year": 2016,
+  "week": 25,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w30d5",
+  "year": 2016,
+  "week": 30,
+  "weekday": 5,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2016w32d4",
+  "year": 2016,
+  "week": 32,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w34d1",
   "year": 2016,
   "week": 34,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w35d4",
   "year": 2016,
   "week": 35,
   "weekday": 4,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w37d4",
   "year": 2016,
   "week": 37,
   "weekday": 4,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w37d5",
   "year": 2016,
   "week": 37,
   "weekday": 5,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w41d5",
   "year": 2016,
   "week": 41,
   "weekday": 5,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w44d3",
   "year": 2016,
   "week": 44,
   "weekday": 3,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w45d5",
   "year": 2016,
   "week": 45,
   "weekday": 5,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w46d5",
   "year": 2016,
   "week": 46,
   "weekday": 5,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w48d4",
   "year": 2016,
   "week": 48,
   "weekday": 4,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w50d1",
   "year": 2016,
   "week": 50,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w50d2",
   "year": 2016,
   "week": 50,
   "weekday": 2,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w50d3",
   "year": 2016,
   "week": 50,
   "weekday": 3,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w50d4",
   "year": 2016,
   "week": 50,
   "weekday": 4,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w51d1",
   "year": 2016,
   "week": 51,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w51d2",
   "year": 2016,
   "week": 51,
   "weekday": 2,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w51d3",
   "year": 2016,
   "week": 51,
   "weekday": 3,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w51d4",
   "year": 2016,
   "week": 51,
   "weekday": 4,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w51d5",
   "year": 2016,
   "week": 51,
   "weekday": 5,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w52d1",
   "year": 2016,
   "week": 52,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w52d2",
   "year": 2016,
   "week": 52,
   "weekday": 2,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w52d3",
   "year": 2016,
   "week": 52,
   "weekday": 3,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w52d4",
   "year": 2016,
   "week": 52,
   "weekday": 4,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2016w52d5",
   "year": 2016,
   "week": 52,
   "weekday": 5,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w1d1",
   "year": 2017,
   "week": 1,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w1d2",
   "year": 2017,
   "week": 1,
   "weekday": 2,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w4d1",
   "year": 2017,
   "week": 4,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w6d1",
   "year": 2017,
   "week": 6,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w9d1",
   "year": 2017,
   "week": 9,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w11d3",
+  "year": 2017,
+  "week": 11,
+  "weekday": 3,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w12d1",
   "year": 2017,
   "week": 12,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w12d3",
   "year": 2017,
   "week": 12,
   "weekday": 3,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w14d5",
   "year": 2017,
   "week": 14,
   "weekday": 5,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w16d1",
   "year": 2017,
   "week": 16,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w16d5",
   "year": 2017,
   "week": 16,
   "weekday": 5,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w17d1",
+  "year": 2017,
+  "week": 17,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w17d3",
   "year": 2017,
   "week": 17,
   "weekday": 3,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w17d5",
+  "year": 2017,
+  "week": 17,
+  "weekday": 5,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w19d2",
   "year": 2017,
   "week": 19,
   "weekday": 2,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w19d3",
   "year": 2017,
   "week": 19,
   "weekday": 3,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w19d4",
+  "year": 2017,
+  "week": 19,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w20d1",
   "year": 2017,
   "week": 20,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w20d2",
   "year": 2017,
   "week": 20,
   "weekday": 2,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w21d2",
   "year": 2017,
   "week": 21,
   "weekday": 2,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w22d3",
+  "year": 2017,
+  "week": 22,
+  "weekday": 3,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w22d4",
+  "year": 2017,
+  "week": 22,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w24d1",
+  "year": 2017,
+  "week": 24,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w25d1",
   "year": 2017,
   "week": 25,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w25d2",
   "year": 2017,
   "week": 25,
   "weekday": 2,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w26d1",
+  "year": 2017,
+  "week": 26,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w28d1",
+  "year": 2017,
+  "week": 28,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w32d1",
+  "year": 2017,
+  "week": 32,
+  "weekday": 1,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w33d4",
+  "year": 2017,
+  "week": 33,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
 }, {
   "yearWeekDay": "2017w34d1",
   "year": 2017,
   "week": 34,
   "weekday": 1,
-  "count": 0
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w34d3",
+  "year": 2017,
+  "week": 34,
+  "weekday": 3,
+  "count": 0,
+  "deploys": []
 }]
