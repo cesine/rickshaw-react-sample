@@ -81,8 +81,8 @@ describe('index', () => {
   });
 
   describe('deploysPerDayHistogram', () => {
-    it.only('should match fixture deploysPerDayHistogram', () => {
-      console.log(JSON.stringify(index.deploysPerDayHistogram));
+    it('should match fixture deploysPerDayHistogram', () => {
+      // console.log(JSON.stringify(index.deploysPerDayHistogram));
       expect(index.deploysPerDayHistogram).to.deep.equal(fixtures.deploysPerDayHistogram);
     });
   });

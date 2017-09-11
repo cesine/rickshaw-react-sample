@@ -203,3 +203,45 @@ new Rickshaw.Graph.HoverDetail({
   },
 });
 deploysPerWeek.render();
+
+const deploysPerDayHistogram = new Rickshaw.Graph({
+  element: document.getElementById('deploysPerDayHistogram'),
+  width: 960,
+  height: 400,
+  renderer: 'bar',
+  series: [
+    {
+      color: '#33F6FF',
+      name: 'Freqency',
+      data: data.deploysPerDayHistogram.map(function(item) {
+        return {
+          y: item.freq,
+          x: item.count,
+          data: item,
+        }
+      }),
+      opacity: 0.5
+    }
+  ]
+});
+
+new Rickshaw.Graph.DragZoom({
+  graph: deploysPerDayHistogram,
+  opacity: 0.5,
+  fill: 'steelblue',
+  minimumTimeSelection: 15,
+  callback: function(args) {
+    console.log(args.range, args.endTime);
+  }
+});
+
+new Rickshaw.Graph.HoverDetail({
+  graph: deploysPerDayHistogram,
+  xFormatter: function(x) {
+    return x;
+  },
+  yFormatter: function(y) {
+    return y;
+  },
+});
+deploysPerDayHistogram.render();

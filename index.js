@@ -47,13 +47,6 @@ for (i = 0; i < 24; i++) {
     count: 0,
   };
 }
-// assuming max deploys per day of 16
-for (i = 0; i < 16; i++) {
-  deploysPerDayHistogram[i] = {
-    freq: 0,
-    count: i,
-  };
-}
 
 years.forEach((year) => {
   weeks.forEach((week) => {
@@ -85,6 +78,7 @@ years.forEach((year) => {
   });
 });
 
+let maxDeployCount = 0;
 data.forEach((datum) => {
   deploysPerWeek.forEach((week) => {
     if (week.year === datum.year && week.week === datum.week) {
@@ -96,6 +90,9 @@ data.forEach((datum) => {
     if (day.year === datum.year && day.week === datum.week && day.weekday === datum.weekday) {
       day.count++;
       day.deploys.push(datum);
+      if (day.count > maxDeployCount) {
+        maxDeployCount = day.count;
+      }
     }
   });
 
@@ -103,15 +100,24 @@ data.forEach((datum) => {
   deploysByDayOfTheWeek[datum.weekday].count++;
 });
 
+// Prepare histogram
+for (i = 0; i < maxDeployCount; i++) {
+  deploysPerDayHistogram[i] = {
+    count: i,
+    freq: 0,
+  };
+}
+
 deploysPerDay.forEach((day) => {
+  // Only analyze working days
   if (day.weekday !== 0 && day.weekday !== 6) {
     if (!day.count) {
       daysWithoutDeploys.push(day);
     }
     deploysPerDayHistogram[day.count] = deploysPerDayHistogram[day.count] || {
       count: day.count,
-      freq: 0
-    }
+      freq: 0,
+    };
     deploysPerDayHistogram[day.count].freq++;
   }
 });
