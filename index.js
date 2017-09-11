@@ -22,10 +22,13 @@ const endDate = data[data.length - 1];
 
 const deploysPerDay = [];
 const deploysPerDayHistogram = [];
+const deploysPerDayHistogram2017 = [];
 const deploysPerWeek = [];
 const daysWithoutDeploys = [];
 const deploysByHour = [];
+const deploysByHour2017 = [];
 const deploysByDayOfTheWeek = [];
+const deploysByDayOfTheWeek2017 = [];
 
 const years = [2016, 2017];
 const weeks = [];
@@ -40,9 +43,17 @@ for (i = 0; i < 7; i++) {
     weekday: i,
     count: 0,
   };
+  deploysByDayOfTheWeek2017[i] = {
+    weekday: i,
+    count: 0,
+  };
 }
 for (i = 0; i < 24; i++) {
   deploysByHour[i] = {
+    hour: i,
+    count: 0,
+  };
+  deploysByHour2017[i] = {
     hour: i,
     count: 0,
   };
@@ -106,6 +117,10 @@ for (i = 0; i < maxDeployCount; i++) {
     count: i,
     freq: 0,
   };
+  deploysPerDayHistogram2017[i] = {
+    count: i,
+    freq: 0,
+  };
 }
 
 deploysPerDay.forEach((day) => {
@@ -122,6 +137,22 @@ deploysPerDay.forEach((day) => {
   }
 });
 
+const only2017 = {
+  deploysPerDay: deploysPerDay.filter(day => day.year === 2017),
+  deploysPerWeek: deploysPerWeek.filter(day => day.year === 2017),
+};
+
+only2017.deploysPerDay.forEach((datum) => {
+  // Only analyze working days
+  if (datum.weekday !== 0 && datum.weekday !== 6) {
+    deploysPerDayHistogram2017[datum.count] = deploysPerDayHistogram2017[datum.count] || {
+      count: datum.count,
+      freq: 0,
+    };
+    deploysPerDayHistogram2017[datum.count].freq++;
+  }
+});
+
 module.exports = {
   startDate,
   endDate,
@@ -132,4 +163,8 @@ module.exports = {
   daysWithoutDeploys,
   deploysByHour,
   deploysByDayOfTheWeek,
+
+  deploysPerDay2017: only2017.deploysPerDay,
+  deploysPerWeek2017: only2017.deploysPerWeek,
+  deploysPerDayHistogram2017,
 };

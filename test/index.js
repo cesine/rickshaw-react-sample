@@ -123,4 +123,19 @@ describe('index', () => {
       expect(index.deploysByDayOfTheWeek).to.deep.equal(fixtures.deploysByDayOfTheWeek);
     });
   });
+
+  describe('2017', () => {
+    it('should have expected number of  deploysPerDay', () => {
+      expect(index.deploysPerDay2017).length(238);
+    });
+
+    it('should have expected number of deploysPerWeek', () => {
+      expect(index.deploysPerWeek2017).length(34);
+    });
+
+    it('should match fixture deploysPerDayHistogram2017', () => {
+      // console.log(JSON.stringify(index.deploysPerDayHistogram2017));
+      expect(index.deploysPerDayHistogram2017).to.deep.equal(fixtures.deploysPerDayHistogram2017);
+    });
+  });
 });
