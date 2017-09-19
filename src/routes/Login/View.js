@@ -1,13 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Form from '../../components/Form';
 
-export default ({ requestLogin, history }) => (
-  <Form
-    onSubmit={fields => requestLogin({
-      fields,
-      callback: () => {
-        console.log('callback called!');
-        history.push('/');
-      },
-    })}
-  />);
+export default function Login({ requestLogin, history }) {
+  return (
+    <Form
+      onSubmit={fields => requestLogin({
+        fields,
+        callback: () => {
+          history.push('/');
+        },
+      })}
+    />);
+}
+
+Login.propTypes = {
+  history: PropTypes.shape({}).isRequired,
+  requestLogin: PropTypes.func.isRequired,
+};

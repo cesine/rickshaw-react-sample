@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import View from './View';
 import { requestLogin } from '../../actions';
 
-const mapStateToProps = state => ({});
+const mapStateToProps = () => ({});
 
 const mapDispatchToProps = dispatch => bindActionCreators(
   {
