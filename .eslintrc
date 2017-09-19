@@ -2,5 +2,10 @@
   "extends": "airbnb",
   "rules": {
     "no-plusplus": 0
-  }
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ]
 }
