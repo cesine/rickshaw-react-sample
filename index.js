@@ -93,12 +93,14 @@ let maxDeployCount = 0;
 data.forEach((datum) => {
   deploysPerWeek.forEach((week) => {
     if (week.year === datum.year && week.week === datum.week) {
+      // eslint-disable-next-line no-param-reassign
       week.count++;
       week.deploys.push(datum);
     }
   });
   deploysPerDay.forEach((day) => {
     if (day.year === datum.year && day.week === datum.week && day.weekday === datum.weekday) {
+      // eslint-disable-next-line no-param-reassign
       day.count++;
       day.deploys.push(datum);
       if (day.count > maxDeployCount) {

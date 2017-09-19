@@ -56,6 +56,7 @@ describe('index', () => {
       // console.log(JSON.stringify(index.data));
       const strigifiedData = index.data.map((item) => {
         if (item.date.toISOString) {
+          // eslint-disable-next-line no-param-reassign
           item.date = item.date.toISOString();
         }
         return item;
@@ -70,6 +71,7 @@ describe('index', () => {
       const strigifiedData = index.deploysPerDay.map((item) => {
         item.deploys.map((deploy) => {
           if (deploy.date.toISOString) {
+            // eslint-disable-next-line no-param-reassign
             deploy.date = deploy.date.toISOString();
           }
           return deploy;
@@ -93,6 +95,7 @@ describe('index', () => {
       const strigifiedData = index.deploysPerWeek.map((item) => {
         item.deploys.map((deploy) => {
           if (deploy.date.toISOString) {
+            // eslint-disable-next-line no-param-reassign
             deploy.date = deploy.date.toISOString();
           }
           return deploy;
