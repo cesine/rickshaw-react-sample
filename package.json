@@ -4,14 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "browserify charts.js -o dist.js",
+    "build": "npm run build:vanilla && npm run build:react",
+    "build:react": "react-scripts build",
+    "build:vanilla": "browserify charts.js -o dist.js",
     "lint": "eslint index.js chart.js test --fix",
-    "start": "node index.js",
-    "test": "mocha test"
+    "start": "npm run start:vanilla && npm run start:react",
+    "start:react": "react-scripts start",
+    "start:vanilla": "node index.js",
+    "test": "npm run test:vanilla && npm run test:react",
+    "test:react": "CI=true react-scripts test --env=jsdom",
+    "test:react:watch": "react-scripts test --env=jsdom",
+    "test:vanilla": "mocha test",
+    "eject": "react-scripts eject"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13",
     "rickshaw": "^1.6.3"
   },
   "devDependencies": {

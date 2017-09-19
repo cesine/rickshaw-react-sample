@@ -59,3 +59,8 @@ typings/
 
 # Data
 *.sql
+
+
+# Distribution
+dist.js
+build/
