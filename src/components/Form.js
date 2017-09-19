@@ -27,22 +27,22 @@ export default class Form extends React.Component {
     return (
       <form>
         <input
-          name="username"
-          placeholder="Username"
-          value={this.state.username}
-          onChange={e => this.change(e)}
-        />
+      name="username"
+      placeholder="Username"
+      value={this.state.username}
+      onChange={e => this.change(e)}
+      />
         <br />
         <input
-          name="password"
-          type="password"
-          placeholder="Password"
-          value={this.state.password}
-          onChange={e => this.change(e)}
-        />
+      name="password"
+      type="password"
+      placeholder="Password"
+      value={this.state.password}
+      onChange={e => this.change(e)}
+      />
         <br />
         <button onClick={e => this.onSubmit(e)}>Submit</button>
       </form>
-    );
+      );
   }
 }

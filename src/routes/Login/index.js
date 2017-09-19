@@ -6,12 +6,11 @@ import { requestLogin } from '../../actions';
 
 const mapStateToProps = state => ({});
 
-const mapDispatchToProps = dispatch =>
-  bindActionCreators(
-    {
-      requestLogin,
-    },
-    dispatch,
-  );
+const mapDispatchToProps = dispatch => bindActionCreators(
+  {
+    requestLogin,
+  },
+  dispatch,
+);
 
 export default connect(mapStateToProps, mapDispatchToProps)(View);
