@@ -1,3 +1,5 @@
+[![Build Status][travis-image]][travis-url]
+
 # rickshaw-react-sample
 Sample rickshaw dashboard (vanilla and react)
 
@@ -2165,3 +2167,10 @@ To resolve this:
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+
+
+
+[travis-url]: https://travis-ci.org/cesine/rickshaw-react-sample
+[travis-image]: https://travis-ci.org/cesine/rickshaw-react-sample.svg?branch=master
+[daviddm-url]: https://david-dm.org/cesine/rickshaw-react-sample.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/cesine/rickshaw-react-sample

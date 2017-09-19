@@ -7,7 +7,7 @@ describe('index', () => {
     it('should start in feb 2016', () => {
       // console.log(index.startDate);
       expect(index.startDate).to.deep.equal({
-        timestamp: '2016-02-17 18:01:32',
+        timestamp: '2016-02-17T23:01:32.000Z',
         date: new Date('2016-02-17T23:01:32.000Z'),
         year: 2016,
         month: 2,
@@ -20,7 +20,7 @@ describe('index', () => {
     it('should end in sept 2017', () => {
       // console.log(index.endDate);
       expect(index.endDate).to.deep.equal({
-        timestamp: '2017-09-08 17:58:31',
+        timestamp: '2017-09-08T21:58:31.000Z',
         date: new Date('2017-09-08T21:58:31.000Z'),
         year: 2017,
         month: 9,
