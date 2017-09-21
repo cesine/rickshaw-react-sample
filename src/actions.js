@@ -1,6 +1,6 @@
-export const REQUEST_LOGIN = 'REQUEST_LOGIN';
+export const REQUEST_DASHBOARD = 'REQUEST_DASHBOARD';
 
-export const requestLogin = payload => ({
-  type: REQUEST_LOGIN,
+export const requestDashboard = payload => ({
+  type: REQUEST_DASHBOARD,
   payload,
 });

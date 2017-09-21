@@ -2,13 +2,13 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 import View from './View';
-import { requestLogin } from '../../actions';
+import { requestDashboard } from '../../actions';
 
 const mapStateToProps = () => ({});
 
 const mapDispatchToProps = dispatch => bindActionCreators(
   {
-    requestLogin,
+    requestDashboard,
   },
   dispatch,
 );
