@@ -7,43 +7,48 @@ import ChartHistogram from '../../components/ChartHistogram';
 import ChartPerDay from '../../components/ChartPerDay';
 import ChartPerWeek from '../../components/ChartPerWeek';
 
-export default function Dashboard({requestDashboard, history}) {
+export default function Dashboard({ history }) {
+  function onDragZoom() {
+    history.push('/');
+  }
+
   return (
     <table>
-      <tr>
-        <td>
-          <h2>Deploys by Hour</h2>
-          <ChartByHour />
-        </td>
-        <td>
-          <h2>Deploys per Day</h2>
-          <ChartPerDay />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h2>Deploys by Day of the Week</h2>
-          <ChartByDayOfTheWeek />
-        </td>
-        <td>
-          <h2>Deploys per Week</h2>
-          <ChartPerWeek />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h2>Monday-Friday without Deploys</h2>
-          <ChartDaysWithout />
-        </td>
-        <td>
-          <h2>Monday-Friday deploy frequency</h2>
-          <ChartHistogram />
-        </td>
-      </tr>
+      <tbody>
+        <tr>
+          <td>
+            <h2>Deploys by Hour</h2>
+            <ChartByHour />
+          </td>
+          <td>
+            <h2>Deploys per Day</h2>
+            <ChartPerDay onDragZoom={onDragZoom} />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h2>Deploys by Day of the Week</h2>
+            <ChartByDayOfTheWeek />
+          </td>
+          <td>
+            <h2>Deploys per Week</h2>
+            <ChartPerWeek onDragZoom={onDragZoom} />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h2>Monday-Friday without Deploys</h2>
+            <ChartDaysWithout />
+          </td>
+          <td>
+            <h2>Monday-Friday deploy frequency</h2>
+            <ChartHistogram />
+          </td>
+        </tr>
+      </tbody>
     </table>);
 }
 
 Dashboard.propTypes = {
   history: PropTypes.shape({}).isRequired,
-  requestDashboard: PropTypes.func.isRequired,
 };
