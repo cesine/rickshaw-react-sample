@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/prefer-default-export
-export const login = async (payload) => {
+export const dashboard = async (payload) => {
   const response = await Promise.resolve({
     ...payload,
     some: 'stuff',

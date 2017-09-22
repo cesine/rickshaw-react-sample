@@ -1,15 +1,15 @@
 import { call, takeLatest } from 'redux-saga/effects';
 
 import { REQUEST_DASHBOARD } from './actions';
-import { login } from './api';
+import { dashboard } from './api';
 
-function* loginSaga({ payload: { fields, callback } }) {
-  const { isError } = yield call(login, fields);
+function* dashboardSaga({ payload: { fields, callback } }) {
+  const { isError } = yield call(dashboard, fields);
   if (!isError) {
     callback();
   }
 }
 
 export default function* mySaga() {
-  yield takeLatest(REQUEST_DASHBOARD, loginSaga);
+  yield takeLatest(REQUEST_DASHBOARD, dashboardSaga);
 }
