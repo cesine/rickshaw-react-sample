@@ -1,4 +1,4 @@
-const index = require('../index.js');
+const index = require('../../../src/lib/timestampsToDatePeriods');
 const expect = require('chai').expect;
 const fixtures = require('fixturefiles');
 

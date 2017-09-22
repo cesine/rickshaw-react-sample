@@ -1,4 +1,4 @@
-const timestamps = require('./data.json');
+const timestamps = require('../data.json');
 
 const data = timestamps.map((timestamp) => {
   const date = new Date(timestamp);

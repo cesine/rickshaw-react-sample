@@ -14,7 +14,7 @@
     "test": "npm run test:vanilla && npm run test:react",
     "test:react": "CI=true react-scripts test --env=jsdom",
     "test:react:watch": "react-scripts test --env=jsdom",
-    "test:vanilla": "mocha test",
+    "test:vanilla": "mocha test/**/*.js",
     "eject": "react-scripts eject"
   },
   "author": "",
