@@ -7,7 +7,8 @@ import ChartHistogram from '../../components/ChartHistogram';
 import ChartPerDay from '../../components/ChartPerDay';
 import ChartPerWeek from '../../components/ChartPerWeek';
 
-export default function Dashboard({ history }) {
+export default function Dashboard({ history, deploysByHour, deploysPerDay,
+  deploysPerWeek, deploysByDayOfTheWeek, daysWithoutDeploys, deploysPerDayHistogram }) {
   function onDragZoom() {
     history.push('/');
   }
@@ -18,31 +19,31 @@ export default function Dashboard({ history }) {
         <tr>
           <td>
             <h2>Deploys by Hour</h2>
-            <ChartByHour />
+            <ChartByHour byHour={deploysByHour} />
           </td>
           <td>
             <h2>Deploys per Day</h2>
-            <ChartPerDay onDragZoom={onDragZoom} />
+            <ChartPerDay onDragZoom={onDragZoom} perDay={deploysPerDay} />
           </td>
         </tr>
         <tr>
           <td>
             <h2>Deploys by Day of the Week</h2>
-            <ChartByDayOfTheWeek />
+            <ChartByDayOfTheWeek byDayOfTheWeek={deploysByDayOfTheWeek} />
           </td>
           <td>
             <h2>Deploys per Week</h2>
-            <ChartPerWeek onDragZoom={onDragZoom} />
+            <ChartPerWeek onDragZoom={onDragZoom} perWeek={deploysPerWeek} />
           </td>
         </tr>
         <tr>
           <td>
             <h2>Monday-Friday without Deploys</h2>
-            <ChartDaysWithout />
+            <ChartDaysWithout daysWithout={daysWithoutDeploys} />
           </td>
           <td>
             <h2>Monday-Friday deploy frequency</h2>
-            <ChartHistogram />
+            <ChartHistogram histogram={deploysPerDayHistogram} />
           </td>
         </tr>
       </tbody>
@@ -51,4 +52,10 @@ export default function Dashboard({ history }) {
 
 Dashboard.propTypes = {
   history: PropTypes.shape({}).isRequired,
+  deploysByHour: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  deploysPerDay: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  deploysByDayOfTheWeek: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  deploysPerWeek: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  daysWithoutDeploys: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  deploysPerDayHistogram: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
 };
