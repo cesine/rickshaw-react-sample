@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run build:vanilla && npm run build:react",
     "build:react": "react-scripts build",
-    "build:vanilla": "browserify charts.js -o dist.js",
+    "build:vanilla": "browserify src/lib/charts.js -o dist.js",
     "lint": "eslint src public index.js chart.js test --fix",
     "start": "npm run start:vanilla && npm run start:react",
     "start:react": "react-scripts start",

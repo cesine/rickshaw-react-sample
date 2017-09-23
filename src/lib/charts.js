@@ -1,4 +1,4 @@
-const data = require('./index');
+const data = require('./timestampsToDatePeriods');
 const Rickshaw = require('rickshaw');
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
