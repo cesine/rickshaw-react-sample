@@ -3,6 +3,14 @@
 # rickshaw-react-sample
 Sample rickshaw dashboard (vanilla and react)
 
+
+## References
+
+* Using D3’s libraries to do everything but rendering DOM nodes  https://hackernoon.com/how-and-why-to-use-d3-with-react-d239eb1ea274
+* Traditional D3 rendering with React   https://medium.com/@Elijah_Meeks/interactive-applications-with-react-d3-f76f7b3ebc71
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

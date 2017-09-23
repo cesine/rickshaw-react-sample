@@ -3,7 +3,8 @@
   "parser": "babel-eslint",
   "rules": {
     "no-plusplus": 0,
-    "react/jsx-filename-extension": 0
+    "react/jsx-filename-extension": 0,
+    "no-new": 0
   },
   "plugins": [
     "react",
