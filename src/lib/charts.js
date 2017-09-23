@@ -72,7 +72,7 @@ const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({ element, byDayOfT
   return graph;
 };
 
-const deploysPerDay = function deploysPerDay({ element, perDay }) {
+const deploysPerDay = function deploysPerDay({ element, onDragZoom, perDay }) {
   let xx = 0;
   const graph = new Rickshaw.Graph({
     element,
@@ -105,7 +105,12 @@ const deploysPerDay = function deploysPerDay({ element, perDay }) {
     fill: 'steelblue',
     minimumTimeSelection: 15,
     callback(args) {
-      console.log(args.range, args.endTime);
+      const start = this.graph.series[0].data[args.endTime - args.range].data;
+      const end = this.graph.series[0].data[args.endTime].data;
+      onDragZoom({
+        start,
+        end,
+      });
     },
   });
 
@@ -122,7 +127,7 @@ const deploysPerDay = function deploysPerDay({ element, perDay }) {
   return graph;
 };
 
-const daysWithoutDeploys = function daysWithoutDeploys({ element, perDay }) {
+const daysWithoutDeploys = function daysWithoutDeploys({ element, onDragZoom, perDay }) {
   let xx = 0;
   const graph = new Rickshaw.Graph({
     element,
@@ -154,7 +159,12 @@ const daysWithoutDeploys = function daysWithoutDeploys({ element, perDay }) {
     fill: 'steelblue',
     minimumTimeSelection: 15,
     callback(args) {
-      console.log(args.range, args.endTime);
+      const start = this.graph.series[0].data[args.endTime - args.range].data;
+      const end = this.graph.series[0].data[args.endTime].data;
+      onDragZoom({
+        start,
+        end,
+      });
     },
   });
 
@@ -171,7 +181,7 @@ const daysWithoutDeploys = function daysWithoutDeploys({ element, perDay }) {
   return graph;
 };
 
-const deploysPerWeek = function deploysPerWeek({ element, perWeek }) {
+const deploysPerWeek = function deploysPerWeek({ element, onDragZoom, perWeek }) {
   let xx = 0;
   const graph = new Rickshaw.Graph({
     element,
@@ -199,7 +209,12 @@ const deploysPerWeek = function deploysPerWeek({ element, perWeek }) {
     fill: 'steelblue',
     minimumTimeSelection: 15,
     callback(args) {
-      console.log(args.range, args.endTime);
+      const start = this.graph.series[0].data[args.endTime - args.range].data;
+      const end = this.graph.series[0].data[args.endTime].data;
+      onDragZoom({
+        start,
+        end,
+      });
     },
   });
 
@@ -216,7 +231,7 @@ const deploysPerWeek = function deploysPerWeek({ element, perWeek }) {
   return graph;
 };
 
-const deploysPerDayHistogram = function deploysPerDayHistogram({ element, histogram }) {
+const deploysPerDayHistogram = function deploysPerDayHistogram({ element, onDragZoom, histogram }) {
   const graph = new Rickshaw.Graph({
     element,
     width: 960,
@@ -242,7 +257,12 @@ const deploysPerDayHistogram = function deploysPerDayHistogram({ element, histog
     fill: 'steelblue',
     minimumTimeSelection: 15,
     callback(args) {
-      console.log(args.range, args.endTime);
+      const start = this.graph.series[0].data[args.endTime - args.range].data;
+      const end = this.graph.series[0].data[args.endTime].data;
+      onDragZoom({
+        start,
+        end,
+      });
     },
   });
 
@@ -271,29 +291,38 @@ module.exports = {
 
 
 try {
+  const onDragZoom = function onDragZoom() {
+    console.log('window.onDragZoom');
+  };
   deploysByHour({
     element: document.getElementById('deploysByHour'),
     byHour: data.deploysByHour,
+    onDragZoom,
   });
   deploysByDayOfTheWeek({
     element: document.getElementById('deploysByDayOfTheWeek'),
     byDayOfTheWeek: data.deploysByDayOfTheWeek,
+    onDragZoom,
   });
   deploysPerDay({
     element: document.getElementById('deploysPerDay'),
     perDay: data.deploysPerDay,
+    onDragZoom,
   });
   deploysPerWeek({
     element: document.getElementById('deploysPerWeek'),
     perWeek: data.deploysPerWeek,
+    onDragZoom,
   });
   daysWithoutDeploys({
     element: document.getElementById('daysWithoutDeploys'),
     perDay: data.deploysPerDay,
+    onDragZoom,
   });
   deploysPerDayHistogram({
     element: document.getElementById('deploysPerDayHistogram'),
     histogram: data.deploysPerDayHistogram,
+    onDragZoom,
   });
 } catch (err) {
   console.error(err);

@@ -15,7 +15,16 @@ class ChartPerDay extends Component {
     this.createChart();
   }
   createChart() {
-    this.graph = deploysPerDay({ element: this.node, perDay: this.props.perDay });
+    if (this.graph) {
+      this.graph.render();
+      return;
+    }
+    console.log('this.props.perDay[0]', this.props.perDay[0]);
+    this.graph = deploysPerDay({
+      element: this.node,
+      perDay: this.props.perDay,
+      onDragZoom: this.props.onDragZoom,
+    });
   }
 
   render() {
@@ -34,9 +43,14 @@ class ChartPerDay extends Component {
 export default ChartPerDay;
 
 ChartPerDay.propTypes = {
+  onDragZoom: PropTypes.func.isRequired,
   perDay: PropTypes.arrayOf(PropTypes.shape({
-    year: PropTypes.number,
+    count: PropTypes.number,
+    weekday: PropTypes.number,
     week: PropTypes.number,
-    day: PropTypes.number,
+    year: PropTypes.number,
+    deploys: PropTypes.arrayOf(PropTypes.shape({})),
+    day: PropTypes.string,
+    yearWeekDay: PropTypes.string,
   })).isRequired,
 };

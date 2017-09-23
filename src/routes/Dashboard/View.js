@@ -9,8 +9,9 @@ import ChartPerWeek from '../../components/ChartPerWeek';
 
 export default function Dashboard({ history, deploysByHour, deploysPerDay,
   deploysPerWeek, deploysByDayOfTheWeek, daysWithoutDeploys, deploysPerDayHistogram }) {
-  function onDragZoom() {
-    history.push('/');
+  function onDragZoom({ start, end }) {
+    console.log('onDragZoom', start, end);
+    history.push(`/start/${start.yearWeekDay}/end/${end.yearWeekDay}`);
   }
 
   return (
