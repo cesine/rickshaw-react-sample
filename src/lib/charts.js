@@ -4,7 +4,7 @@ const Rickshaw = require('rickshaw');
 
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
-const deploysByHour = function deploysByHour({ element }) {
+const deploysByHour = function deploysByHour({ element, byHour }) {
   const graph = new Rickshaw.Graph({
     element,
     width: 960,
@@ -14,7 +14,7 @@ const deploysByHour = function deploysByHour({ element }) {
       {
         color: '#ff9030',
         name: 'Count',
-        data: data.deploysByHour.map(item => ({
+        data: byHour.map(item => ({
           y: item.count,
           x: item.hour,
           data: item,
@@ -38,7 +38,7 @@ const deploysByHour = function deploysByHour({ element }) {
   return graph;
 };
 
-const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({ element }) {
+const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({ element, byDayOfTheWeek }) {
   const graph = new Rickshaw.Graph({
     element,
     width: 960,
@@ -48,7 +48,7 @@ const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({ element }) {
       {
         color: '#4040ff',
         name: 'Count',
-        data: data.deploysByDayOfTheWeek.map(item => ({
+        data: byDayOfTheWeek.map(item => ({
           y: item.count,
           x: item.weekday,
           data: item,
@@ -72,7 +72,7 @@ const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({ element }) {
   return graph;
 };
 
-const deploysPerDay = function deploysPerDay({ element }) {
+const deploysPerDay = function deploysPerDay({ element, perDay }) {
   let xx = 0;
   const graph = new Rickshaw.Graph({
     element,
@@ -83,7 +83,7 @@ const deploysPerDay = function deploysPerDay({ element }) {
       {
         color: '#ff9030',
         name: 'Count',
-        data: data.deploysPerDay.map((item) => {
+        data: perDay.map((item) => {
           const day = item.yearWeekDay.split('d')[1];
           // eslint-disable-next-line no-param-reassign
           item.day = days[day];
@@ -112,7 +112,7 @@ const deploysPerDay = function deploysPerDay({ element }) {
   new Rickshaw.Graph.HoverDetail({
     graph,
     xFormatter(x) {
-      return `${data.deploysPerDay[x].year} Week: ${data.deploysPerDay[x].week}, ${data.deploysPerDay[x].day}`;
+      return `${perDay[x].year} Week: ${perDay[x].week}, ${perDay[x].day}`;
     },
     yFormatter(y) {
       return y;
@@ -122,7 +122,7 @@ const deploysPerDay = function deploysPerDay({ element }) {
   return graph;
 };
 
-const daysWithoutDeploys = function daysWithoutDeploys({ element }) {
+const daysWithoutDeploys = function daysWithoutDeploys({ element, perDay }) {
   let xx = 0;
   const graph = new Rickshaw.Graph({
     element,
@@ -133,7 +133,7 @@ const daysWithoutDeploys = function daysWithoutDeploys({ element }) {
       {
         color: '#ff4040',
         name: 'Count',
-        data: data.deploysPerDay.map((item) => {
+        data: perDay.map((item) => {
           const day = item.yearWeekDay.split('d')[1];
           // eslint-disable-next-line no-param-reassign
           item.day = days[day];
@@ -161,7 +161,7 @@ const daysWithoutDeploys = function daysWithoutDeploys({ element }) {
   new Rickshaw.Graph.HoverDetail({
     graph,
     xFormatter(x) {
-      return `${data.deploysPerDay[x].year} Week: ${data.deploysPerDay[x].week}, ${data.deploysPerDay[x].day}`;
+      return `${perDay[x].year} Week: ${perDay[x].week}, ${perDay[x].day}`;
     },
     yFormatter() {
       return '0';
@@ -171,7 +171,7 @@ const daysWithoutDeploys = function daysWithoutDeploys({ element }) {
   return graph;
 };
 
-const deploysPerWeek = function deploysPerWeek({ element }) {
+const deploysPerWeek = function deploysPerWeek({ element, perWeek }) {
   let xx = 0;
   const graph = new Rickshaw.Graph({
     element,
@@ -182,7 +182,7 @@ const deploysPerWeek = function deploysPerWeek({ element }) {
       {
         color: '#4040ff',
         name: 'Count',
-        data: data.deploysPerWeek.map(item => ({
+        data: perWeek.map(item => ({
           y: item.count,
           x: xx++,
           data: item,
@@ -206,7 +206,7 @@ const deploysPerWeek = function deploysPerWeek({ element }) {
   new Rickshaw.Graph.HoverDetail({
     graph,
     xFormatter(x) {
-      return `${data.deploysPerWeek[x].year} Week: ${data.deploysPerWeek[x].week}`;
+      return `${perWeek[x].year} Week: ${perWeek[x].week}`;
     },
     yFormatter(y) {
       return y;
@@ -216,7 +216,7 @@ const deploysPerWeek = function deploysPerWeek({ element }) {
   return graph;
 };
 
-const deploysPerDayHistogram = function deploysPerDayHistogram({ element }) {
+const deploysPerDayHistogram = function deploysPerDayHistogram({ element, histogram }) {
   const graph = new Rickshaw.Graph({
     element,
     width: 960,
@@ -226,7 +226,7 @@ const deploysPerDayHistogram = function deploysPerDayHistogram({ element }) {
       {
         color: '#33F6FF',
         name: 'Freqency',
-        data: data.deploysPerDayHistogram.map(item => ({
+        data: histogram.map(item => ({
           y: item.freq,
           x: item.count,
           data: item,
@@ -273,21 +273,27 @@ module.exports = {
 try {
   deploysByHour({
     element: document.getElementById('deploysByHour'),
+    byHour: data.deploysByHour,
   });
   deploysByDayOfTheWeek({
     element: document.getElementById('deploysByDayOfTheWeek'),
+    byDayOfTheWeek: data.deploysByDayOfTheWeek,
   });
   deploysPerDay({
     element: document.getElementById('deploysPerDay'),
+    perDay: data.deploysPerDay,
   });
   deploysPerWeek({
     element: document.getElementById('deploysPerWeek'),
+    perWeek: data.deploysPerWeek,
   });
   daysWithoutDeploys({
     element: document.getElementById('daysWithoutDeploys'),
+    perDay: data.deploysPerDay,
   });
   deploysPerDayHistogram({
     element: document.getElementById('deploysPerDayHistogram'),
+    histogram: data.deploysPerDayHistogram,
   });
 } catch (err) {
   console.error(err);
