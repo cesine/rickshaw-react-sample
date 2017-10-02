@@ -291,9 +291,7 @@ module.exports = {
 
 
 try {
-  const onDragZoom = function onDragZoom() {
-    console.log('window.onDragZoom');
-  };
+  const onDragZoom = function onDragZoom() { };
   deploysByHour({
     element: document.getElementById('deploysByHour'),
     byHour: data.deploysByHour,
@@ -325,5 +323,5 @@ try {
     onDragZoom,
   });
 } catch (err) {
-  console.error(err);
+  console.error(err); // eslint-disable-line no-console
 }

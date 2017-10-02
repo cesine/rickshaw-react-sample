@@ -8,7 +8,7 @@ import ChartPerDay from '../../components/ChartPerDay';
 import ChartPerWeek from '../../components/ChartPerWeek';
 
 export default function Dashboard({ history, deploysByHour, deploysPerDay,
-  deploysPerWeek, deploysByDayOfTheWeek, daysWithoutDeploys, deploysPerDayHistogram }) {
+  deploysPerWeek, deploysByDayOfTheWeek, deploysPerDayHistogram }) {
   function onDragZoom({ start, end }) {
     console.log('onDragZoom', start, end);
     history.push(`/start/${start.yearWeekDay}/end/${end.yearWeekDay}`);
@@ -40,7 +40,7 @@ export default function Dashboard({ history, deploysByHour, deploysPerDay,
         <tr>
           <td>
             <h2>Monday-Friday without Deploys</h2>
-            <ChartDaysWithout daysWithout={daysWithoutDeploys} />
+            <ChartDaysWithout perDay={deploysPerDay} />
           </td>
           <td>
             <h2>Monday-Friday deploy frequency</h2>
@@ -57,6 +57,5 @@ Dashboard.propTypes = {
   deploysPerDay: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
   deploysByDayOfTheWeek: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
   deploysPerWeek: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
-  daysWithoutDeploys: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
   deploysPerDayHistogram: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
 };

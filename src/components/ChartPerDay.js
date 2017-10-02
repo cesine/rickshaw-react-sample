@@ -19,7 +19,6 @@ class ChartPerDay extends Component {
       this.graph.render();
       return;
     }
-    console.log('this.props.perDay[0]', this.props.perDay[0]);
     this.graph = deploysPerDay({
       element: this.node,
       perDay: this.props.perDay,
@@ -31,7 +30,6 @@ class ChartPerDay extends Component {
     return (
       <svg
         ref={(node) => {
-          console.log('setting the node on the svg', node);
           this.node = node;
         }}
         width={500}

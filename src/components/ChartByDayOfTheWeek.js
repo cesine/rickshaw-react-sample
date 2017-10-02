@@ -1,11 +1,54 @@
-import React from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-export default (props) => {
-  console.log('By Day of the Week', props);
+import { deploysByDayOfTheWeek } from '../lib/charts';
 
-  return (
-    <div>
-      <span>{JSON.stringify(props).substring(0, 100)}</span>
-    </div>
-  );
+class ChartByDayOfTheWeek extends Component {
+  constructor(props) {
+    super(props);
+    this.createChart = this.createChart.bind(this);
+  }
+  componentDidMount() {
+    this.createChart();
+  }
+  componentDidUpdate() {
+    this.createChart();
+  }
+  createChart() {
+    if (this.graph) {
+      this.graph.render();
+      return;
+    }
+    this.graph = deploysByDayOfTheWeek({
+      element: this.node,
+      byDayOfTheWeek: this.props.byDayOfTheWeek,
+      onDragZoom: this.props.onDragZoom,
+    });
+  }
+
+  render() {
+    return (
+      <svg
+        ref={(node) => {
+          this.node = node;
+        }}
+        width={500}
+        height={500}
+      />
+    );
+  }
+}
+export default ChartByDayOfTheWeek;
+
+ChartByDayOfTheWeek.propTypes = {
+  onDragZoom: PropTypes.func.isRequired,
+  byDayOfTheWeek: PropTypes.arrayOf(PropTypes.shape({
+    count: PropTypes.number,
+    weekday: PropTypes.number,
+    week: PropTypes.number,
+    year: PropTypes.number,
+    deploys: PropTypes.arrayOf(PropTypes.shape({})),
+    day: PropTypes.string,
+    yearWeekDay: PropTypes.string,
+  })).isRequired,
 };
