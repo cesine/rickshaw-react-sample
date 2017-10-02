@@ -22,7 +22,6 @@ class ChartByDayOfTheWeek extends Component {
     this.graph = deploysByDayOfTheWeek({
       element: this.node,
       byDayOfTheWeek: this.props.byDayOfTheWeek,
-      onDragZoom: this.props.onDragZoom,
     });
   }
 
@@ -41,7 +40,6 @@ class ChartByDayOfTheWeek extends Component {
 export default ChartByDayOfTheWeek;
 
 ChartByDayOfTheWeek.propTypes = {
-  onDragZoom: PropTypes.func.isRequired,
   byDayOfTheWeek: PropTypes.arrayOf(PropTypes.shape({
     count: PropTypes.number,
     weekday: PropTypes.number,

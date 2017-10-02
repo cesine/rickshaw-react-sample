@@ -22,7 +22,6 @@ class ChartHistogram extends Component {
     this.graph = deploysPerDayHistogram({
       element: this.node,
       histogram: this.props.histogram,
-      onDragZoom: this.props.onDragZoom,
     });
   }
 
@@ -41,7 +40,6 @@ class ChartHistogram extends Component {
 export default ChartHistogram;
 
 ChartHistogram.propTypes = {
-  onDragZoom: PropTypes.func.isRequired,
   histogram: PropTypes.arrayOf(PropTypes.shape({
     count: PropTypes.number,
     weekday: PropTypes.number,

@@ -22,7 +22,6 @@ class ChartByHour extends Component {
     this.graph = deploysByHour({
       element: this.node,
       byHour: this.props.byHour,
-      onDragZoom: this.props.onDragZoom,
     });
   }
 
@@ -41,7 +40,6 @@ class ChartByHour extends Component {
 export default ChartByHour;
 
 ChartByHour.propTypes = {
-  onDragZoom: PropTypes.func.isRequired,
   byHour: PropTypes.arrayOf(PropTypes.shape({
     count: PropTypes.number,
     weekday: PropTypes.number,

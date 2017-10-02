@@ -40,7 +40,7 @@ export default function Dashboard({ history, deploysByHour, deploysPerDay,
         <tr>
           <td>
             <h2>Monday-Friday without Deploys</h2>
-            <ChartDaysWithout perDay={deploysPerDay} />
+            <ChartDaysWithout onDragZoom={onDragZoom} perDay={deploysPerDay} />
           </td>
           <td>
             <h2>Monday-Friday deploy frequency</h2>
