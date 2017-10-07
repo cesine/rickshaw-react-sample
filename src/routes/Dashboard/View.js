@@ -15,53 +15,26 @@ export default function Dashboard({ history, deploysByHour, deploysPerDay,
     history.push(`/start/${start.yearWeekDay}/end/${end.yearWeekDay}`);
   }
 
+  const style = {
+    // eslint-disable-next-line no-undef
+    height: window.innerHeight,
+  };
+
   return (
-    <table>
-      <tbody>
-        <tr>
-          <td>
-            <h2>Deploys by Hour</h2>
-            <div>
-              <ChartByHour byHour={deploysByHour} />
-            </div>
-          </td>
-          <td>
-            <h2>Deploys per Day</h2>
-            <div>
-              <ChartPerDay onDragZoom={onDragZoom} perDay={deploysPerDay} />
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h2>Deploys by Day of the Week</h2>
-            <div>
-              <ChartByDayOfTheWeek byDayOfTheWeek={deploysByDayOfTheWeek} />
-            </div>
-          </td>
-          <td>
-            <h2>Deploys per Week</h2>
-            <div>
-              <ChartPerWeek onDragZoom={onDragZoom} perWeek={deploysPerWeek} />
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h2>Monday-Friday without Deploys</h2>
-            <div>
-              <ChartDaysWithout onDragZoom={onDragZoom} perDay={deploysPerDay} />
-            </div>
-          </td>
-          <td>
-            <h2>Monday-Friday deploy frequency</h2>
-            <div>
-              <ChartHistogram histogram={deploysPerDayHistogram} />
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>);
+    <div className="dashboard" style={style} >
+      <div className="row">
+        <ChartByHour className="column" title="Deploys by Hour" byHour={deploysByHour} />
+        <ChartPerDay className="column" title="Deploys per Day" onDragZoom={onDragZoom} perDay={deploysPerDay} />
+      </div>
+      <div className="row">
+        <ChartByDayOfTheWeek className="column" title="Deploys by Day of the Week" byDayOfTheWeek={deploysByDayOfTheWeek} />
+        <ChartPerWeek className="column" title="Deploys per Week" onDragZoom={onDragZoom} perWeek={deploysPerWeek} />
+      </div>
+      <div className="row">
+        <ChartDaysWithout className="column" title="Monday-Friday without Deploys" onDragZoom={onDragZoom} perDay={deploysPerDay} />
+        <ChartHistogram className="column" title="Monday-Friday deploy frequency" histogram={deploysPerDayHistogram} />
+      </div>
+    </div>);
 }
 
 Dashboard.propTypes = {

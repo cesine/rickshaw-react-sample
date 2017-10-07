@@ -71,13 +71,16 @@ class ResizableChart extends Component {
     }
 
     return (
-      <svg
-        ref={(node) => {
-          this.node = node;
-        }}
-        width={width}
-        height={height}
-      />
+      <div className={this.props.className} >
+        <h2>{this.props.title}</h2>
+        <svg
+          ref={(node) => {
+            this.node = node;
+          }}
+          width={width}
+          height={height}
+        />
+      </div>
     );
   }
 }
@@ -85,11 +88,15 @@ class ResizableChart extends Component {
 export default ResizableChart;
 
 ResizableChart.defaultProps = {
+  className: '',
+  title: 'Chart',
   height: 200,
   width: 600,
 };
 
 ResizableChart.propTypes = {
+  className: PropTypes.string,
+  title: PropTypes.string,
   height: PropTypes.number,
   width: PropTypes.number,
 };
