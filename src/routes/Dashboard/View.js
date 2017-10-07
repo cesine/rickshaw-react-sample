@@ -6,6 +6,7 @@ import ChartDaysWithout from '../../components/ChartDaysWithout';
 import ChartHistogram from '../../components/ChartHistogram';
 import ChartPerDay from '../../components/ChartPerDay';
 import ChartPerWeek from '../../components/ChartPerWeek';
+import './Dashboard.css';
 
 export default function Dashboard({ history, deploysByHour, deploysPerDay,
   deploysPerWeek, deploysByDayOfTheWeek, deploysPerDayHistogram }) {
@@ -20,31 +21,43 @@ export default function Dashboard({ history, deploysByHour, deploysPerDay,
         <tr>
           <td>
             <h2>Deploys by Hour</h2>
-            <ChartByHour byHour={deploysByHour} />
+            <div>
+              <ChartByHour byHour={deploysByHour} />
+            </div>
           </td>
           <td>
             <h2>Deploys per Day</h2>
-            <ChartPerDay onDragZoom={onDragZoom} perDay={deploysPerDay} />
+            <div>
+              <ChartPerDay onDragZoom={onDragZoom} perDay={deploysPerDay} />
+            </div>
           </td>
         </tr>
         <tr>
           <td>
             <h2>Deploys by Day of the Week</h2>
-            <ChartByDayOfTheWeek byDayOfTheWeek={deploysByDayOfTheWeek} />
+            <div>
+              <ChartByDayOfTheWeek byDayOfTheWeek={deploysByDayOfTheWeek} />
+            </div>
           </td>
           <td>
             <h2>Deploys per Week</h2>
-            <ChartPerWeek onDragZoom={onDragZoom} perWeek={deploysPerWeek} />
+            <div>
+              <ChartPerWeek onDragZoom={onDragZoom} perWeek={deploysPerWeek} />
+            </div>
           </td>
         </tr>
         <tr>
           <td>
             <h2>Monday-Friday without Deploys</h2>
-            <ChartDaysWithout onDragZoom={onDragZoom} perDay={deploysPerDay} />
+            <div>
+              <ChartDaysWithout onDragZoom={onDragZoom} perDay={deploysPerDay} />
+            </div>
           </td>
           <td>
             <h2>Monday-Friday deploy frequency</h2>
-            <ChartHistogram histogram={deploysPerDayHistogram} />
+            <div>
+              <ChartHistogram histogram={deploysPerDayHistogram} />
+            </div>
           </td>
         </tr>
       </tbody>

@@ -1,46 +1,36 @@
-import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import { deploysPerWeek } from '../lib/charts';
+import ResizableChart from './ResizableChart';
 
-class ChartPerWeek extends Component {
-  constructor(props) {
-    super(props);
-    this.createChart = this.createChart.bind(this);
-  }
-  componentDidMount() {
-    this.createChart();
-  }
-  componentDidUpdate() {
-    this.createChart();
-  }
+class ChartPerWeek extends ResizableChart {
   createChart() {
+    const { height, width } = this.state || this.props;
+
     if (this.graph) {
+      if (height) {
+        this.graph.height = height;
+      }
+      if (width) {
+        this.graph.width = width;
+      }
       this.graph.render();
       return;
     }
     this.graph = deploysPerWeek({
       element: this.node,
+      height,
+      width,
       perWeek: this.props.perWeek,
       onDragZoom: this.props.onDragZoom,
     });
-  }
-
-  render() {
-    return (
-      <svg
-        ref={(node) => {
-          this.node = node;
-        }}
-        width={500}
-        height={500}
-      />
-    );
   }
 }
 export default ChartPerWeek;
 
 ChartPerWeek.propTypes = {
+  height: PropTypes.number,
+  width: PropTypes.number,
   onDragZoom: PropTypes.func.isRequired,
   perWeek: PropTypes.arrayOf(PropTypes.shape({
     count: PropTypes.number,

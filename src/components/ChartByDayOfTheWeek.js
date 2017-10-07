@@ -1,45 +1,35 @@
-import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import { deploysByDayOfTheWeek } from '../lib/charts';
+import ResizableChart from './ResizableChart';
 
-class ChartByDayOfTheWeek extends Component {
-  constructor(props) {
-    super(props);
-    this.createChart = this.createChart.bind(this);
-  }
-  componentDidMount() {
-    this.createChart();
-  }
-  componentDidUpdate() {
-    this.createChart();
-  }
+class ChartByDayOfTheWeek extends ResizableChart {
   createChart() {
+    const { height, width } = this.state || this.props;
+
     if (this.graph) {
+      if (height) {
+        this.graph.height = height;
+      }
+      if (width) {
+        this.graph.width = width;
+      }
       this.graph.render();
       return;
     }
     this.graph = deploysByDayOfTheWeek({
       element: this.node,
+      height,
+      width,
       byDayOfTheWeek: this.props.byDayOfTheWeek,
     });
-  }
-
-  render() {
-    return (
-      <svg
-        ref={(node) => {
-          this.node = node;
-        }}
-        width={500}
-        height={500}
-      />
-    );
   }
 }
 export default ChartByDayOfTheWeek;
 
 ChartByDayOfTheWeek.propTypes = {
+  height: PropTypes.number,
+  width: PropTypes.number,
   byDayOfTheWeek: PropTypes.arrayOf(PropTypes.shape({
     count: PropTypes.number,
     weekday: PropTypes.number,

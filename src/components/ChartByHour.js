@@ -1,45 +1,35 @@
-import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import { deploysByHour } from '../lib/charts';
+import ResizableChart from './ResizableChart';
 
-class ChartByHour extends Component {
-  constructor(props) {
-    super(props);
-    this.createChart = this.createChart.bind(this);
-  }
-  componentDidMount() {
-    this.createChart();
-  }
-  componentDidUpdate() {
-    this.createChart();
-  }
+class ChartByHour extends ResizableChart {
   createChart() {
+    const { height, width } = this.state || this.props;
+
     if (this.graph) {
+      if (height) {
+        this.graph.height = height;
+      }
+      if (width) {
+        this.graph.width = width;
+      }
       this.graph.render();
       return;
     }
     this.graph = deploysByHour({
       element: this.node,
+      height,
+      width,
       byHour: this.props.byHour,
     });
-  }
-
-  render() {
-    return (
-      <svg
-        ref={(node) => {
-          this.node = node;
-        }}
-        width={500}
-        height={500}
-      />
-    );
   }
 }
 export default ChartByHour;
 
 ChartByHour.propTypes = {
+  height: PropTypes.number,
+  width: PropTypes.number,
   byHour: PropTypes.arrayOf(PropTypes.shape({
     count: PropTypes.number,
     weekday: PropTypes.number,

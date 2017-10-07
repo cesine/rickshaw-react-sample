@@ -12,14 +12,30 @@ describe('ChartPerDay', () => {
   it('should render without crashing', () => {
     const div = document.createElement('div');
     const props = {
+      height: 60,
+      width: 100,
       perDay: [],
       onDragZoom: sinon.spy(),
     };
 
-    const element = renderer.render(<ChartPerDay {...props} />, div);
-    expect(element.props).to.deep.equal({
-      height: 500,
-      width: 500,
+    const el = renderer.render(<ChartPerDay {...props} />, div);
+    expect(el.props).to.deep.equal({
+      height: 60,
+      width: 100,
+    });
+  });
+
+  it('should have a default height and width', () => {
+    const div = document.createElement('div');
+    const props = {
+      perDay: [],
+      onDragZoom: sinon.spy(),
+    };
+
+    const el = renderer.render(<ChartPerDay {...props} />, div);
+    expect(el.props).to.deep.equal({
+      height: 200,
+      width: 600,
     });
   });
 });

@@ -4,11 +4,21 @@ const Rickshaw = require('rickshaw');
 
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
-const deploysByHour = function deploysByHour({ element, byHour }) {
+let defaultWidth = 960;
+
+try {
+  // eslint-disable-next-line no-undef
+  defaultWidth = window.innerWidth / 2;
+} catch (err) {
+  console.log('defaultWidth', defaultWidth);
+}
+
+
+const deploysByHour = function deploysByHour({ element, height, width, byHour }) {
   const graph = new Rickshaw.Graph({
     element,
-    width: 960,
-    height: 400,
+    width: width || element.offsetHeight || defaultWidth,
+    height: height || 400,
     renderer: 'bar',
     series: [
       {
@@ -38,11 +48,12 @@ const deploysByHour = function deploysByHour({ element, byHour }) {
   return graph;
 };
 
-const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({ element, byDayOfTheWeek }) {
+const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({
+  element, height, width, byDayOfTheWeek }) {
   const graph = new Rickshaw.Graph({
     element,
-    width: 960,
-    height: 400,
+    width: width || element.offsetHeight || defaultWidth,
+    height: height || 400,
     renderer: 'bar',
     series: [
       {
@@ -72,12 +83,12 @@ const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({ element, byDayOfT
   return graph;
 };
 
-const deploysPerDay = function deploysPerDay({ element, onDragZoom, perDay }) {
+const deploysPerDay = function deploysPerDay({ element, height, width, onDragZoom, perDay }) {
   let xx = 0;
   const graph = new Rickshaw.Graph({
     element,
-    width: 960,
-    height: 400,
+    width: width || element.offsetHeight || defaultWidth,
+    height: height || 400,
     renderer: 'bar',
     series: [
       {
@@ -127,12 +138,13 @@ const deploysPerDay = function deploysPerDay({ element, onDragZoom, perDay }) {
   return graph;
 };
 
-const daysWithoutDeploys = function daysWithoutDeploys({ element, onDragZoom, perDay }) {
+const daysWithoutDeploys = function daysWithoutDeploys({
+  element, height, width, onDragZoom, perDay }) {
   let xx = 0;
   const graph = new Rickshaw.Graph({
     element,
-    width: 960,
-    height: 400,
+    width: width || element.offsetHeight || defaultWidth,
+    height: height || 400,
     renderer: 'bar',
     series: [
       {
@@ -181,12 +193,12 @@ const daysWithoutDeploys = function daysWithoutDeploys({ element, onDragZoom, pe
   return graph;
 };
 
-const deploysPerWeek = function deploysPerWeek({ element, onDragZoom, perWeek }) {
+const deploysPerWeek = function deploysPerWeek({ element, height, width, onDragZoom, perWeek }) {
   let xx = 0;
   const graph = new Rickshaw.Graph({
     element,
-    width: 960,
-    height: 400,
+    width: width || element.offsetHeight || defaultWidth,
+    height: height || 400,
     renderer: 'bar',
     series: [
       {
@@ -231,11 +243,12 @@ const deploysPerWeek = function deploysPerWeek({ element, onDragZoom, perWeek })
   return graph;
 };
 
-const deploysPerDayHistogram = function deploysPerDayHistogram({ element, onDragZoom, histogram }) {
+const deploysPerDayHistogram = function deploysPerDayHistogram({
+  element, height, width, onDragZoom, histogram }) {
   const graph = new Rickshaw.Graph({
     element,
-    width: 960,
-    height: 400,
+    width: width || element.offsetHeight || defaultWidth,
+    height: height || 400,
     renderer: 'bar',
     series: [
       {
