@@ -116,12 +116,12 @@ data.forEach((datum) => {
 // Prepare histogram
 for (i = 0; i < maxDeployCount; i++) {
   deploysPerDayHistogram[i] = {
-    count: i,
     freq: 0,
+    count: i,
   };
   deploysPerDayHistogram2017[i] = {
-    count: i,
     freq: 0,
+    count: i,
   };
 }
 
@@ -132,8 +132,8 @@ deploysPerDay.forEach((day) => {
       daysWithoutDeploys.push(day);
     }
     deploysPerDayHistogram[day.count] = deploysPerDayHistogram[day.count] || {
-      count: day.count,
       freq: 0,
+      count: day.count,
     };
     deploysPerDayHistogram[day.count].freq++;
   }

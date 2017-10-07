@@ -1,23 +1,23 @@
 [{
-  "freq": 111,
+  "freq": 116,
   "count": 0
 }, {
-  "freq": 77,
+  "freq": 79,
   "count": 1
 }, {
-  "freq": 69,
+  "freq": 72,
   "count": 2
 }, {
-  "freq": 52,
+  "freq": 56,
   "count": 3
 }, {
   "freq": 37,
   "count": 4
 }, {
-  "freq": 19,
+  "freq": 21,
   "count": 5
 }, {
-  "freq": 9,
+  "freq": 12,
   "count": 6
 }, {
   "freq": 10,
@@ -32,7 +32,7 @@
   "freq": 4,
   "count": 10
 }, {
-  "freq": 4,
+  "freq": 5,
   "count": 11
 }, {
   "freq": 4,

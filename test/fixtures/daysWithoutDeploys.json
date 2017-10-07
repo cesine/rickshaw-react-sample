@@ -775,4 +775,39 @@
   "weekday": 3,
   "count": 0,
   "deploys": []
+}, {
+  "yearWeekDay": "2017w35d5",
+  "year": 2017,
+  "week": 35,
+  "weekday": 5,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w37d2",
+  "year": 2017,
+  "week": 37,
+  "weekday": 2,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w38d3",
+  "year": 2017,
+  "week": 38,
+  "weekday": 3,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w38d4",
+  "year": 2017,
+  "week": 38,
+  "weekday": 4,
+  "count": 0,
+  "deploys": []
+}, {
+  "yearWeekDay": "2017w38d5",
+  "year": 2017,
+  "week": 38,
+  "weekday": 5,
+  "count": 0,
+  "deploys": []
 }]

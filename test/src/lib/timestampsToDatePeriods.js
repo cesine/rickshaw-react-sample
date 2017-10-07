@@ -20,13 +20,13 @@ describe('index', () => {
     it('should end in sept 2017', () => {
       // console.log(index.endDate);
       expect(index.endDate).to.deep.equal({
-        timestamp: '2017-09-08T21:58:31.000Z',
-        date: new Date('2017-09-08T21:58:31.000Z'),
+        timestamp: '2017-10-03T19:15:38.000Z',
+        date: new Date('2017-10-03T19:15:38.000Z'),
         year: 2017,
-        month: 9,
-        week: 34,
-        weekday: 5,
-        hour: 17,
+        month: 10,
+        week: 38,
+        weekday: 2,
+        hour: 15,
       });
     });
   });
@@ -129,11 +129,11 @@ describe('index', () => {
 
   describe('2017', () => {
     it('should have expected number of  deploysPerDay', () => {
-      expect(index.deploysPerDay2017).length(238);
+      expect(index.deploysPerDay2017).length(266);
     });
 
     it('should have expected number of deploysPerWeek', () => {
-      expect(index.deploysPerWeek2017).length(34);
+      expect(index.deploysPerWeek2017).length(38);
     });
 
     it('should match fixture deploysPerDayHistogram2017', () => {
