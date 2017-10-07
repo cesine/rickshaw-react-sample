@@ -5,22 +5,10 @@ import ResizableChart from './ResizableChart';
 
 class ChartPerWeek extends ResizableChart {
   createChart() {
-    const { height, width } = this.state || this.props;
-
-    if (this.graph) {
-      if (height) {
-        this.graph.height = height;
-      }
-      if (width) {
-        this.graph.width = width;
-      }
-      this.graph.render();
-      return;
-    }
     this.graph = deploysPerWeek({
       element: this.node,
-      height,
-      width,
+      height: this.getHeight(),
+      width: this.getWidth(),
       perWeek: this.props.perWeek,
       onDragZoom: this.props.onDragZoom,
     });

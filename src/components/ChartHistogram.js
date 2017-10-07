@@ -5,22 +5,10 @@ import ResizableChart from './ResizableChart';
 
 class ChartHistogram extends ResizableChart {
   createChart() {
-    const { height, width } = this.state || this.props;
-
-    if (this.graph) {
-      if (height) {
-        this.graph.height = height;
-      }
-      if (width) {
-        this.graph.width = width;
-      }
-      this.graph.render();
-      return;
-    }
     this.graph = deploysPerDayHistogram({
       element: this.node,
-      height,
-      width,
+      height: this.getHeight(),
+      width: this.getWidth(),
       histogram: this.props.histogram,
     });
   }

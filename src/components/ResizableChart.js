@@ -9,17 +9,17 @@ const defaultState = { height: 300, width: 500 };
 class ResizableChart extends Component {
   constructor(props) {
     super(props);
-    console.log(this.props);
     this.createChart = this.createChart.bind(this);
+    this.updateChart = this.updateChart.bind(this);
   }
   componentDidMount() {
     this.onResize();
-    this.createChart();
+    this.updateChart();
     window.addEventListener('resize', this.onResize.bind(this));
   }
 
   componentDidUpdate() {
-    this.createChart();
+    this.updateChart();
   }
 
   componentWillUnmount() {
@@ -34,11 +34,13 @@ class ResizableChart extends Component {
       // https://github.com/souporserious/react-measure/pull/41/files
       // eslint-disable-next-line react/no-find-dom-node
       const domNode = ReactDom.findDOMNode(this);
-      height = domNode.parentElement.offsetHeight;
-      width = domNode.parentElement.offsetWidth;
+      const titleHeights = domNode.children[0].offsetHeight * this.props.rowCount;
+      const totalRowsHeight = domNode.parentElement.parentElement.offsetHeight;
+      height = (totalRowsHeight - titleHeights) / this.props.rowCount;
+      width = domNode.parentElement.offsetWidth / this.props.colCount;
     } catch (notRenderedYetErr) {
-      height = window.innerHeight - 80;
-      width = window.innerWidth - 80;
+      height = window.innerHeight / this.props.rowCount;
+      width = window.innerWidth / this.props.colCount;
     }
 
     if (!width) {
@@ -46,29 +48,53 @@ class ResizableChart extends Component {
       return defaultState;
     }
 
-    // trigger render
+    // triggers render
     this.setState({
       height,
       width,
     });
-    console.log('state', height, width);
+    console.log('state', { height, width });
     return { height, width };
   }
 
-  createChart() {
-    console.log('override this method ', this.graph);
-  }
-
-  render() {
+  getHeight() {
     let height = this.props.height;
-    let width = this.props.width;
 
     if (this.state && this.state.height) {
       height = this.state.height;
     }
+    return height;
+  }
+
+  getWidth() {
+    let width = this.props.width;
+
     if (this.state && this.state.width) {
       width = this.state.width;
     }
+    return width;
+  }
+
+  createChart() {
+    return this.graph;
+  }
+
+  updateChart() {
+    if (this.graph) {
+      this.graph.configure({
+        height: this.getHeight(),
+        width: this.getWidth(),
+      });
+      this.graph.render();
+      return this.graph;
+    }
+
+    return this.createChart();
+  }
+
+  render() {
+    const height = this.getHeight();
+    const width = this.getWidth();
 
     return (
       <div className={this.props.className} >
@@ -90,8 +116,10 @@ export default ResizableChart;
 ResizableChart.defaultProps = {
   className: '',
   title: 'Chart',
-  height: 200,
-  width: 600,
+  height: 0,
+  width: 0,
+  colCount: 1,
+  rowCount: 1,
 };
 
 ResizableChart.propTypes = {
@@ -99,4 +127,6 @@ ResizableChart.propTypes = {
   title: PropTypes.string,
   height: PropTypes.number,
   width: PropTypes.number,
+  colCount: PropTypes.number,
+  rowCount: PropTypes.number,
 };

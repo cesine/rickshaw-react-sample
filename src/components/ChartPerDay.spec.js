@@ -19,13 +19,13 @@ describe('ChartPerDay', () => {
     };
 
     const el = renderer.render(<ChartPerDay {...props} />, div);
-    expect(el.props).to.deep.equal({
+    expect(el.props.children[1].props).to.deep.equal({
       height: 60,
       width: 100,
     });
   });
 
-  it('should have a default height and width', () => {
+  it('should have a defaults', () => {
     const div = document.createElement('div');
     const props = {
       perDay: [],
@@ -33,9 +33,30 @@ describe('ChartPerDay', () => {
     };
 
     const el = renderer.render(<ChartPerDay {...props} />, div);
-    expect(el.props).to.deep.equal({
-      height: 200,
-      width: 600,
+    expect(el.props.children[0].props).to.deep.equal({
+      children: 'Chart',
+    });
+    expect(el.props.children[1].props).to.deep.equal({
+      height: 0,
+      width: 0,
+    });
+  });
+
+  it('should support a title', () => {
+    const div = document.createElement('div');
+    const props = {
+      title: 'Today',
+      perDay: [],
+      onDragZoom: sinon.spy(),
+    };
+
+    const el = renderer.render(<ChartPerDay {...props} />, div);
+    expect(el.props.children[0].props).to.deep.equal({
+      children: 'Today',
+    });
+    expect(el.props.children[1].props).to.deep.equal({
+      height: 0,
+      width: 0,
     });
   });
 });

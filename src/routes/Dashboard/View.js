@@ -19,20 +19,24 @@ export default function Dashboard({ history, deploysByHour, deploysPerDay,
     // eslint-disable-next-line no-undef
     height: window.innerHeight,
   };
+  console.log('rendering dashboard', style);
+
+  const rows = 3;
+  const columns = 2;
 
   return (
     <div className="dashboard" style={style} >
       <div className="row">
-        <ChartByHour className="column" title="Deploys by Hour" byHour={deploysByHour} />
-        <ChartPerDay className="column" title="Deploys per Day" onDragZoom={onDragZoom} perDay={deploysPerDay} />
+        <ChartByHour className="column" rowCount={rows} colCount={columns} title="Deploys by Hour" byHour={deploysByHour} />
+        <ChartPerDay className="column" rowCount={rows} colCount={columns} title="Deploys per Day" onDragZoom={onDragZoom} perDay={deploysPerDay} />
       </div>
       <div className="row">
-        <ChartByDayOfTheWeek className="column" title="Deploys by Day of the Week" byDayOfTheWeek={deploysByDayOfTheWeek} />
-        <ChartPerWeek className="column" title="Deploys per Week" onDragZoom={onDragZoom} perWeek={deploysPerWeek} />
+        <ChartByDayOfTheWeek className="column" rowCount={rows} colCount={columns} title="Deploys by Day of the Week" byDayOfTheWeek={deploysByDayOfTheWeek} />
+        <ChartPerWeek className="column" rowCount={rows} colCount={columns} title="Deploys per Week" onDragZoom={onDragZoom} perWeek={deploysPerWeek} />
       </div>
       <div className="row">
-        <ChartDaysWithout className="column" title="Monday-Friday without Deploys" onDragZoom={onDragZoom} perDay={deploysPerDay} />
-        <ChartHistogram className="column" title="Monday-Friday deploy frequency" histogram={deploysPerDayHistogram} />
+        <ChartDaysWithout className="column" rowCount={rows} colCount={columns} title="Monday-Friday without Deploys" onDragZoom={onDragZoom} perDay={deploysPerDay} />
+        <ChartHistogram className="column" rowCount={rows} colCount={columns} title="Monday-Friday deploy frequency" histogram={deploysPerDayHistogram} />
       </div>
     </div>);
 }
