@@ -1,5 +1,5 @@
 /* globals document */
-const data = require('./timestampsToDatePeriods');
+const timestampsToDatePeriods = require('./timestampsToDatePeriods');
 const Rickshaw = require('rickshaw');
 
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
@@ -13,27 +13,31 @@ try {
   console.log('defaultWidth', defaultWidth);
 }
 
+const deploysByHour = function deploysByHour({ element, hoverElement, height, width, data }) {
+  function mapDataToSeries(dataArray) {
+    this.data = dataArray;
+    return [{
+      color: '#ff9030',
+      name: 'Count',
+      data: dataArray.map(item => ({
+        y: item.count,
+        x: item.hour,
+        data: item,
+        r: item.count,
+      })),
+      opacity: 0.5,
+    }];
+  }
 
-const deploysByHour = function deploysByHour({ element, hoverElement, height, width, byHour }) {
   const graph = new Rickshaw.Graph({
     element,
     width: width || element.offsetHeight || defaultWidth,
     height: height || 400,
     renderer: 'bar',
-    series: [
-      {
-        color: '#ff9030',
-        name: 'Count',
-        data: byHour.map(item => ({
-          y: item.count,
-          x: item.hour,
-          data: item,
-          r: item.count,
-        })),
-        opacity: 0.5,
-      },
-    ],
+    series: mapDataToSeries(data),
   });
+  graph.data = data;
+  graph.mapDataToSeries = mapDataToSeries;
 
   new Rickshaw.Graph.HoverDetail({
     element: hoverElement,
@@ -50,26 +54,31 @@ const deploysByHour = function deploysByHour({ element, hoverElement, height, wi
 };
 
 const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({
-  element, hoverElement, height, width, byDayOfTheWeek }) {
+  element, hoverElement, height, width, data }) {
+  function mapDataToSeries(dataArray) {
+    this.data = dataArray;
+    return [{
+      color: '#4040ff',
+      name: 'Count',
+      data: dataArray.map(item => ({
+        y: item.count,
+        x: item.weekday,
+        data: item,
+        r: item.count,
+      })),
+      opacity: 0.5,
+    }];
+  }
+
   const graph = new Rickshaw.Graph({
     element,
     width: width || element.offsetHeight || defaultWidth,
     height: height || 400,
     renderer: 'bar',
-    series: [
-      {
-        color: '#4040ff',
-        name: 'Count',
-        data: byDayOfTheWeek.map(item => ({
-          y: item.count,
-          x: item.weekday,
-          data: item,
-          r: item.count,
-        })),
-        opacity: 0.5,
-      },
-    ],
+    series: mapDataToSeries(data),
   });
+  graph.data = data;
+  graph.mapDataToSeries = mapDataToSeries;
 
   new Rickshaw.Graph.HoverDetail({
     element: hoverElement,
@@ -85,32 +94,38 @@ const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({
   return graph;
 };
 
-const deploysPerDay = function deploysPerDay({ element, hoverElement, height, width, onDragZoom, perDay }) {
+const deploysPerDay = function deploysPerDay({
+  element, hoverElement, height, width, onDragZoom, data }) {
   let xx = 0;
+  function mapDataToSeries(dataArray) {
+    this.data = dataArray;
+    return [{
+      color: '#ff9030',
+      name: 'Count',
+      data: dataArray.map((item) => {
+        const day = item.yearWeekDay.split('d')[1];
+        // eslint-disable-next-line no-param-reassign
+        item.day = days[day];
+        return {
+          y: item.count,
+          x: xx++,
+          data: item,
+          r: item.count,
+        };
+      }),
+      opacity: 0.5,
+    }];
+  }
+
   const graph = new Rickshaw.Graph({
     element,
     width: width || element.offsetHeight || defaultWidth,
     height: height || 400,
     renderer: 'bar',
-    series: [
-      {
-        color: '#ff9030',
-        name: 'Count',
-        data: perDay.map((item) => {
-          const day = item.yearWeekDay.split('d')[1];
-          // eslint-disable-next-line no-param-reassign
-          item.day = days[day];
-          return {
-            y: item.count,
-            x: xx++,
-            data: item,
-            r: item.count,
-          };
-        }),
-        opacity: 0.5,
-      },
-    ],
+    series: mapDataToSeries(data),
   });
+  graph.data = data;
+  graph.mapDataToSeries = mapDataToSeries;
 
   new Rickshaw.Graph.DragZoom({
     graph,
@@ -131,7 +146,10 @@ const deploysPerDay = function deploysPerDay({ element, hoverElement, height, wi
     element: hoverElement,
     graph,
     xFormatter(x) {
-      return `${perDay[x].year} Week: ${perDay[x].week}, ${perDay[x].day}`;
+      if (!graph.data[x]) {
+        return x;
+      }
+      return `${graph.data[x].year} Week: ${graph.data[x].week}, ${graph.data[x].day}`;
     },
     yFormatter(y) {
       return y;
@@ -142,31 +160,36 @@ const deploysPerDay = function deploysPerDay({ element, hoverElement, height, wi
 };
 
 const daysWithoutDeploys = function daysWithoutDeploys({
-  element, hoverElement, height, width, onDragZoom, perDay }) {
+  element, hoverElement, height, width, onDragZoom, data }) {
   let xx = 0;
+
+  function mapDataToSeries(dataArray) {
+    this.data = dataArray;
+    return [{
+      color: '#ff4040',
+      name: 'Count',
+      data: dataArray.map((item) => {
+        const day = item.yearWeekDay.split('d')[1];
+        // eslint-disable-next-line no-param-reassign
+        item.day = days[day];
+        return {
+          y: item.count ? 0 : 1,
+          x: xx++,
+          data: item,
+        };
+      }),
+      opacity: 0.5,
+    }];
+  }
   const graph = new Rickshaw.Graph({
     element,
     width: width || element.offsetHeight || defaultWidth,
     height: height || 400,
     renderer: 'bar',
-    series: [
-      {
-        color: '#ff4040',
-        name: 'Count',
-        data: perDay.map((item) => {
-          const day = item.yearWeekDay.split('d')[1];
-          // eslint-disable-next-line no-param-reassign
-          item.day = days[day];
-          return {
-            y: item.count ? 0 : 1,
-            x: xx++,
-            data: item,
-          };
-        }),
-        opacity: 0.5,
-      },
-    ],
+    series: mapDataToSeries(data),
   });
+  graph.data = data;
+  graph.mapDataToSeries = mapDataToSeries;
 
   new Rickshaw.Graph.DragZoom({
     graph,
@@ -187,7 +210,10 @@ const daysWithoutDeploys = function daysWithoutDeploys({
     element: hoverElement,
     graph,
     xFormatter(x) {
-      return `${perDay[x].year} Week: ${perDay[x].week}, ${perDay[x].day}`;
+      if (!graph.data[x]) {
+        return x;
+      }
+      return `${graph.data[x].year} Week: ${graph.data[x].week}, ${graph.data[x].day}`;
     },
     yFormatter() {
       return '0';
@@ -197,27 +223,32 @@ const daysWithoutDeploys = function daysWithoutDeploys({
   return graph;
 };
 
-const deploysPerWeek = function deploysPerWeek({ element, hoverElement, height, width, onDragZoom, perWeek }) {
+const deploysPerWeek = function deploysPerWeek({
+  element, hoverElement, height, width, onDragZoom, data }) {
   let xx = 0;
+  function mapDataToSeries(dataArray) {
+    this.data = dataArray;
+    return [{
+      color: '#4040ff',
+      name: 'Count',
+      data: dataArray.map(item => ({
+        y: item.count,
+        x: xx++,
+        data: item,
+        r: item.count,
+      })),
+      opacity: 0.5,
+    }];
+  }
   const graph = new Rickshaw.Graph({
     element,
     width: width || element.offsetHeight || defaultWidth,
     height: height || 400,
     renderer: 'bar',
-    series: [
-      {
-        color: '#4040ff',
-        name: 'Count',
-        data: perWeek.map(item => ({
-          y: item.count,
-          x: xx++,
-          data: item,
-          r: item.count,
-        })),
-        opacity: 0.5,
-      },
-    ],
+    series: mapDataToSeries(data),
   });
+  graph.data = data;
+  graph.mapDataToSeries = mapDataToSeries;
 
   new Rickshaw.Graph.DragZoom({
     graph,
@@ -238,7 +269,10 @@ const deploysPerWeek = function deploysPerWeek({ element, hoverElement, height, 
     element: hoverElement,
     graph,
     xFormatter(x) {
-      return `${perWeek[x].year} Week: ${perWeek[x].week}`;
+      if (!graph.data[x]) {
+        return x;
+      }
+      return `${graph.data[x].year} Week: ${graph.data[x].week}`;
     },
     yFormatter(y) {
       return y;
@@ -249,25 +283,29 @@ const deploysPerWeek = function deploysPerWeek({ element, hoverElement, height, 
 };
 
 const deploysPerDayHistogram = function deploysPerDayHistogram({
-  element, hoverElement, height, width, onDragZoom, histogram }) {
+  element, hoverElement, height, width, onDragZoom, data }) {
+  function mapDataToSeries(dataArray) {
+    this.data = dataArray;
+    return [{
+      color: '#33F6FF',
+      name: 'Freqency',
+      data: dataArray.map(item => ({
+        y: item.freq,
+        x: item.count,
+        data: item,
+      })),
+      opacity: 0.5,
+    }];
+  }
   const graph = new Rickshaw.Graph({
     element,
     width: width || element.offsetHeight || defaultWidth,
     height: height || 400,
     renderer: 'bar',
-    series: [
-      {
-        color: '#33F6FF',
-        name: 'Freqency',
-        data: histogram.map(item => ({
-          y: item.freq,
-          x: item.count,
-          data: item,
-        })),
-        opacity: 0.5,
-      },
-    ],
+    series: mapDataToSeries(data),
   });
+  graph.data = data;
+  graph.mapDataToSeries = mapDataToSeries;
 
   new Rickshaw.Graph.DragZoom({
     graph,
@@ -308,37 +346,36 @@ module.exports = {
   deploysPerDayHistogram,
 };
 
-
 try {
   const onDragZoom = function onDragZoom() { };
   deploysByHour({
     element: document.getElementById('deploysByHour'),
-    byHour: data.deploysByHour,
+    data: timestampsToDatePeriods.deploysByHour,
     onDragZoom,
   });
   deploysByDayOfTheWeek({
     element: document.getElementById('deploysByDayOfTheWeek'),
-    byDayOfTheWeek: data.deploysByDayOfTheWeek,
+    data: timestampsToDatePeriods.deploysByDayOfTheWeek,
     onDragZoom,
   });
   deploysPerDay({
     element: document.getElementById('deploysPerDay'),
-    perDay: data.deploysPerDay,
+    data: timestampsToDatePeriods.deploysPerDay,
     onDragZoom,
   });
   deploysPerWeek({
     element: document.getElementById('deploysPerWeek'),
-    perWeek: data.deploysPerWeek,
+    data: timestampsToDatePeriods.deploysPerWeek,
     onDragZoom,
   });
   daysWithoutDeploys({
     element: document.getElementById('daysWithoutDeploys'),
-    perDay: data.deploysPerDay,
+    data: timestampsToDatePeriods.deploysPerDay,
     onDragZoom,
   });
   deploysPerDayHistogram({
     element: document.getElementById('deploysPerDayHistogram'),
-    histogram: data.deploysPerDayHistogram,
+    data: timestampsToDatePeriods.deploysPerDayHistogram,
     onDragZoom,
   });
 } catch (err) {

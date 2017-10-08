@@ -9,7 +9,7 @@ class ChartDaysWithout extends ResizableChart {
       element: this.node,
       height: this.getHeight(),
       width: this.getWidth(),
-      perDay: this.props.perDay,
+      data: this.props.data,
       onDragZoom: this.props.onDragZoom,
     });
   }
@@ -20,7 +20,7 @@ ChartDaysWithout.propTypes = {
   height: PropTypes.number,
   width: PropTypes.number,
   onDragZoom: PropTypes.func.isRequired,
-  perDay: PropTypes.arrayOf(PropTypes.shape({
+  data: PropTypes.arrayOf(PropTypes.shape({
     count: PropTypes.number,
     weekday: PropTypes.number,
     week: PropTypes.number,

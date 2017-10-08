@@ -9,7 +9,7 @@ class ChartHistogram extends ResizableChart {
       element: this.node,
       height: this.getHeight(),
       width: this.getWidth(),
-      histogram: this.props.histogram,
+      data: this.props.data,
     });
   }
 }
@@ -18,7 +18,7 @@ export default ChartHistogram;
 ChartHistogram.propTypes = {
   height: PropTypes.number,
   width: PropTypes.number,
-  histogram: PropTypes.arrayOf(PropTypes.shape({
+  data: PropTypes.arrayOf(PropTypes.shape({
     count: PropTypes.number,
     weekday: PropTypes.number,
     week: PropTypes.number,

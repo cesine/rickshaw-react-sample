@@ -9,7 +9,7 @@ class ChartByDayOfTheWeek extends ResizableChart {
       element: this.node,
       height: this.getHeight(),
       width: this.getWidth(),
-      byDayOfTheWeek: this.props.byDayOfTheWeek,
+      data: this.props.data,
     });
   }
 }
@@ -18,7 +18,7 @@ export default ChartByDayOfTheWeek;
 ChartByDayOfTheWeek.propTypes = {
   height: PropTypes.number,
   width: PropTypes.number,
-  byDayOfTheWeek: PropTypes.arrayOf(PropTypes.shape({
+  data: PropTypes.arrayOf(PropTypes.shape({
     count: PropTypes.number,
     weekday: PropTypes.number,
     week: PropTypes.number,

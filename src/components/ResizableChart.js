@@ -84,6 +84,7 @@ class ResizableChart extends Component {
         height: this.getHeight(),
         width: this.getWidth(),
       });
+      this.graph.setSeries(this.graph.mapDataToSeries(this.props.data));
       this.graph.render();
       return this.graph;
     }
@@ -92,6 +93,8 @@ class ResizableChart extends Component {
   }
 
   render() {
+    console.log('this.props', this.props);
+
     return (
       <div className={this.props.className} >
         <h2>{this.props.title}</h2>
@@ -100,8 +103,7 @@ class ResizableChart extends Component {
           ref={(node) => {
             this.node = node;
           }}
-        >
-        </div>
+        />
       </div>
     );
   }
@@ -121,6 +123,7 @@ ResizableChart.defaultProps = {
 ResizableChart.propTypes = {
   className: PropTypes.string,
   title: PropTypes.string,
+  data: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
   height: PropTypes.number,
   width: PropTypes.number,
   colCount: PropTypes.number,

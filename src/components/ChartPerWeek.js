@@ -9,7 +9,7 @@ class ChartPerWeek extends ResizableChart {
       element: this.node,
       height: this.getHeight(),
       width: this.getWidth(),
-      perWeek: this.props.perWeek,
+      data: this.props.data,
       onDragZoom: this.props.onDragZoom,
     });
   }
@@ -20,7 +20,7 @@ ChartPerWeek.propTypes = {
   height: PropTypes.number,
   width: PropTypes.number,
   onDragZoom: PropTypes.func.isRequired,
-  perWeek: PropTypes.arrayOf(PropTypes.shape({
+  data: PropTypes.arrayOf(PropTypes.shape({
     count: PropTypes.number,
     weekday: PropTypes.number,
     week: PropTypes.number,

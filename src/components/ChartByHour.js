@@ -9,7 +9,7 @@ class ChartByHour extends ResizableChart {
       element: this.node,
       height: this.getHeight(),
       width: this.getWidth(),
-      byHour: this.props.byHour,
+      data: this.props.data,
     });
   }
 }
@@ -18,7 +18,7 @@ export default ChartByHour;
 ChartByHour.propTypes = {
   height: PropTypes.number,
   width: PropTypes.number,
-  byHour: PropTypes.arrayOf(PropTypes.shape({
+  data: PropTypes.arrayOf(PropTypes.shape({
     count: PropTypes.number,
     weekday: PropTypes.number,
     week: PropTypes.number,
