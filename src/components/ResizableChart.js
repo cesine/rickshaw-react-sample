@@ -84,7 +84,32 @@ class ResizableChart extends Component {
         height: this.getHeight(),
         width: this.getWidth(),
       });
-      this.graph.setSeries(this.graph.mapDataToSeries(this.props.data));
+      if (this.props.params.startYear || this.props.params.endYear) {
+        this.graph.setSeries(this.graph.mapDataToSeries(this.props.data.filter((item) => {
+          if (!item.year) {
+            return true;
+          }
+          if (item.year < this.props.params.startYear) {
+            return false;
+          }
+          if (item.year > this.props.params.endYear) {
+            return false;
+          }
+          if (item.week < this.props.params.startWeek) {
+            return false;
+          }
+          if (item.week > this.props.params.endWeek) {
+            return false;
+          }
+          if (item.weekday < this.props.params.startDay) {
+            return false;
+          }
+          if (item.weekday > this.props.params.endDay) {
+            return false;
+          }
+          return true;
+        })));
+      }
       this.graph.render();
       return this.graph;
     }
@@ -93,8 +118,7 @@ class ResizableChart extends Component {
   }
 
   render() {
-    console.log('this.props', this.props);
-
+    // console.log('this.props', this.props);
     return (
       <div className={this.props.className} >
         <h2>{this.props.title}</h2>
@@ -118,12 +142,21 @@ ResizableChart.defaultProps = {
   width: 0,
   colCount: 1,
   rowCount: 1,
+  params: {},
 };
 
 ResizableChart.propTypes = {
   className: PropTypes.string,
   title: PropTypes.string,
   data: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  params: PropTypes.shape({
+    startYear: PropTypes.string,
+    endYear: PropTypes.string,
+    startWeek: PropTypes.string,
+    endWeek: PropTypes.string,
+    startDay: PropTypes.string,
+    endDay: PropTypes.string,
+  }),
   height: PropTypes.number,
   width: PropTypes.number,
   colCount: PropTypes.number,

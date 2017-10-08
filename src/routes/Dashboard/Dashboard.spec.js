@@ -13,6 +13,7 @@ describe('Dashboard', () => {
     const div = document.createElement('div');
     const props = {
       history: {},
+      match: {},
       deploysByHour: [],
       deploysPerDay: [],
       deploysByDayOfTheWeek: [],

@@ -14,21 +14,20 @@ describe('ChartPerDay', () => {
     const props = {
       height: 60,
       width: 100,
-      perDay: [],
+      data: [],
       onDragZoom: sinon.spy(),
     };
 
     const el = renderer.render(<ChartPerDay {...props} />, div);
     expect(el.props.children[1].props).to.deep.equal({
-      height: 60,
-      width: 100,
+      className: 'rickshaw_graph',
     });
   });
 
   it('should have a defaults', () => {
     const div = document.createElement('div');
     const props = {
-      perDay: [],
+      data: [],
       onDragZoom: sinon.spy(),
     };
 
@@ -37,8 +36,7 @@ describe('ChartPerDay', () => {
       children: 'Chart',
     });
     expect(el.props.children[1].props).to.deep.equal({
-      height: 0,
-      width: 0,
+      className: 'rickshaw_graph',
     });
   });
 
@@ -46,7 +44,7 @@ describe('ChartPerDay', () => {
     const div = document.createElement('div');
     const props = {
       title: 'Today',
-      perDay: [],
+      data: [],
       onDragZoom: sinon.spy(),
     };
 
@@ -55,8 +53,7 @@ describe('ChartPerDay', () => {
       children: 'Today',
     });
     expect(el.props.children[1].props).to.deep.equal({
-      height: 0,
-      width: 0,
+      className: 'rickshaw_graph',
     });
   });
 });
