@@ -12,6 +12,7 @@ class ResizableChart extends Component {
     this.createChart = this.createChart.bind(this);
     this.updateChart = this.updateChart.bind(this);
   }
+
   componentDidMount() {
     this.onResize();
     this.updateChart();
@@ -33,11 +34,11 @@ class ResizableChart extends Component {
       // https://facebook.github.io/react/docs/refs-and-the-dom.html#caveats
       // https://github.com/souporserious/react-measure/pull/41/files
       // eslint-disable-next-line react/no-find-dom-node
-      const domNode = ReactDom.findDOMNode(this);
-      const titleHeights = domNode.children[0].offsetHeight * this.props.rowCount;
-      const totalRowsHeight = domNode.parentElement.parentElement.offsetHeight;
+      this.domNode = ReactDom.findDOMNode(this);
+      const titleHeights = this.domNode.children[0].offsetHeight * this.props.rowCount * 4;
+      const totalRowsHeight = this.domNode.parentElement.parentElement.offsetHeight;
       height = (totalRowsHeight - titleHeights) / this.props.rowCount;
-      width = domNode.parentElement.offsetWidth / this.props.colCount;
+      width = this.domNode.parentElement.offsetWidth / this.props.colCount;
     } catch (notRenderedYetErr) {
       height = window.innerHeight / this.props.rowCount;
       width = window.innerWidth / this.props.colCount;
@@ -59,7 +60,6 @@ class ResizableChart extends Component {
 
   getHeight() {
     let height = this.props.height;
-
     if (this.state && this.state.height) {
       height = this.state.height;
     }
@@ -68,7 +68,6 @@ class ResizableChart extends Component {
 
   getWidth() {
     let width = this.props.width;
-
     if (this.state && this.state.width) {
       width = this.state.width;
     }
@@ -93,19 +92,16 @@ class ResizableChart extends Component {
   }
 
   render() {
-    const height = this.getHeight();
-    const width = this.getWidth();
-
     return (
       <div className={this.props.className} >
         <h2>{this.props.title}</h2>
-        <svg
+        <div
+          className="rickshaw_graph"
           ref={(node) => {
             this.node = node;
           }}
-          width={width}
-          height={height}
-        />
+        >
+        </div>
       </div>
     );
   }

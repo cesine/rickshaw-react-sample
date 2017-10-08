@@ -14,7 +14,7 @@ try {
 }
 
 
-const deploysByHour = function deploysByHour({ element, height, width, byHour }) {
+const deploysByHour = function deploysByHour({ element, hoverElement, height, width, byHour }) {
   const graph = new Rickshaw.Graph({
     element,
     width: width || element.offsetHeight || defaultWidth,
@@ -36,6 +36,7 @@ const deploysByHour = function deploysByHour({ element, height, width, byHour })
   });
 
   new Rickshaw.Graph.HoverDetail({
+    element: hoverElement,
     graph,
     xFormatter(x) {
       return `${x}:00`;
@@ -49,7 +50,7 @@ const deploysByHour = function deploysByHour({ element, height, width, byHour })
 };
 
 const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({
-  element, height, width, byDayOfTheWeek }) {
+  element, hoverElement, height, width, byDayOfTheWeek }) {
   const graph = new Rickshaw.Graph({
     element,
     width: width || element.offsetHeight || defaultWidth,
@@ -71,6 +72,7 @@ const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({
   });
 
   new Rickshaw.Graph.HoverDetail({
+    element: hoverElement,
     graph,
     xFormatter(x) {
       return days[x];
@@ -83,7 +85,7 @@ const deploysByDayOfTheWeek = function deploysByDayOfTheWeek({
   return graph;
 };
 
-const deploysPerDay = function deploysPerDay({ element, height, width, onDragZoom, perDay }) {
+const deploysPerDay = function deploysPerDay({ element, hoverElement, height, width, onDragZoom, perDay }) {
   let xx = 0;
   const graph = new Rickshaw.Graph({
     element,
@@ -126,6 +128,7 @@ const deploysPerDay = function deploysPerDay({ element, height, width, onDragZoo
   });
 
   new Rickshaw.Graph.HoverDetail({
+    element: hoverElement,
     graph,
     xFormatter(x) {
       return `${perDay[x].year} Week: ${perDay[x].week}, ${perDay[x].day}`;
@@ -139,7 +142,7 @@ const deploysPerDay = function deploysPerDay({ element, height, width, onDragZoo
 };
 
 const daysWithoutDeploys = function daysWithoutDeploys({
-  element, height, width, onDragZoom, perDay }) {
+  element, hoverElement, height, width, onDragZoom, perDay }) {
   let xx = 0;
   const graph = new Rickshaw.Graph({
     element,
@@ -181,6 +184,7 @@ const daysWithoutDeploys = function daysWithoutDeploys({
   });
 
   new Rickshaw.Graph.HoverDetail({
+    element: hoverElement,
     graph,
     xFormatter(x) {
       return `${perDay[x].year} Week: ${perDay[x].week}, ${perDay[x].day}`;
@@ -193,7 +197,7 @@ const daysWithoutDeploys = function daysWithoutDeploys({
   return graph;
 };
 
-const deploysPerWeek = function deploysPerWeek({ element, height, width, onDragZoom, perWeek }) {
+const deploysPerWeek = function deploysPerWeek({ element, hoverElement, height, width, onDragZoom, perWeek }) {
   let xx = 0;
   const graph = new Rickshaw.Graph({
     element,
@@ -231,6 +235,7 @@ const deploysPerWeek = function deploysPerWeek({ element, height, width, onDragZ
   });
 
   new Rickshaw.Graph.HoverDetail({
+    element: hoverElement,
     graph,
     xFormatter(x) {
       return `${perWeek[x].year} Week: ${perWeek[x].week}`;
@@ -244,7 +249,7 @@ const deploysPerWeek = function deploysPerWeek({ element, height, width, onDragZ
 };
 
 const deploysPerDayHistogram = function deploysPerDayHistogram({
-  element, height, width, onDragZoom, histogram }) {
+  element, hoverElement, height, width, onDragZoom, histogram }) {
   const graph = new Rickshaw.Graph({
     element,
     width: width || element.offsetHeight || defaultWidth,
@@ -280,6 +285,7 @@ const deploysPerDayHistogram = function deploysPerDayHistogram({
   });
 
   new Rickshaw.Graph.HoverDetail({
+    element: hoverElement,
     graph,
     xFormatter(x) {
       return x;

@@ -1,3 +1,5 @@
+@import '../../../node_modules/rickshaw/rickshaw.css';
+
 .dashboard {
   display: flex;
   flex-direction: column;
@@ -17,4 +19,8 @@
   flex-direction: column;
   align-items: center;
   flex: 1;
+}
+
+.rickshaw_graph .detail .x_label {
+  background: rgba(0, 0, 0, 0);
 }
