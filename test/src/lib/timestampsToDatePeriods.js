@@ -129,20 +129,80 @@ describe('timestampsToDatePeriods', () => {
         expect(index.deploysByDayOfTheWeek).to.deep.equal(fixtures.deploysByDayOfTheWeek);
       });
     });
+  });
 
-    describe('2017', () => {
-      it('should have expected number of  deploysPerDay', () => {
-        expect(index.deploysPerDay2017).length(266);
-      });
+  describe('by year', () => {
+    const start = {
+      year: 2017,
+    };
+    const end = {
+      year: 2017,
+    };
+    const data2017 = timestampsToDatePeriods(start, end);
 
-      it('should have expected number of deploysPerWeek', () => {
-        expect(index.deploysPerWeek2017).length(38);
-      });
+    it('should have expected number of deploysPerDay', () => {
+      expect(data2017.deploysPerDay).length(266);
+    });
 
-      it('should match fixture deploysPerDayHistogram2017', () => {
-        // console.log(JSON.stringify(index.deploysPerDayHistogram2017));
-        expect(index.deploysPerDayHistogram2017).to.deep.equal(fixtures.deploysPerDayHistogram2017);
-      });
+    it('should have expected number of deploysPerWeek', () => {
+      expect(data2017.deploysPerWeek).length(38);
+    });
+
+    it('should match fixture deploysPerDayHistogram2017', () => {
+      // console.log(JSON.stringify(data2017.deploysPerDayHistogram));
+      expect(data2017.deploysPerDayHistogram)
+        .to.deep.equal(fixtures.deploysPerDayHistogram2017);
+    });
+  });
+
+  describe('by year week', () => {
+    const start = {
+      year: 2017,
+      week: 16,
+    };
+    const end = {
+      year: 2017,
+      week: 24,
+    };
+    const data = timestampsToDatePeriods(start, end);
+
+    it('should have expected number of deploysPerDay', () => {
+      // console.log('deploysPerDay', data.deploysPerDay[0]);
+      expect(data.deploysPerDay).length(63);
+    });
+
+    it('should have expected number of deploysPerWeek', () => {
+      expect(data.deploysPerWeek).length(9);
+    });
+
+    it('should match fixture deploysPerDayHistogram', () => {
+      // console.log(JSON.stringify(data.deploysPerDayHistogram));
+      expect(data.deploysPerDayHistogram)
+        .to.deep.equal([{
+          freq: 14,
+          count: 0,
+        }, {
+          freq: 9,
+          count: 1,
+        }, {
+          freq: 9,
+          count: 2,
+        }, {
+          freq: 4,
+          count: 3,
+        }, {
+          freq: 6,
+          count: 4,
+        }, {
+          freq: 1,
+          count: 5,
+        }, {
+          freq: 1,
+          count: 6,
+        }, {
+          freq: 1,
+          count: 7,
+        }]);
     });
   });
 });

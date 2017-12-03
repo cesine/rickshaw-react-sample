@@ -10,12 +10,33 @@ function timestampsToDatePeriods(start, end) {
     return {
       timestamp,
       date,
-      year: date.getFullYear(),
+      year,
       month: date.getMonth() + 1,
       week: Math.floor(dayOfTheYear / 7) - 1,
       weekday: date.getDay(),
       hour: date.getHours(),
     };
+  }).filter((item) => {
+    if (!start && !end) {
+      return true;
+    }
+
+    if (item.year < start.year || item.year > end.year) {
+      // console.log('filtering by year', item);
+      return false;
+    }
+
+    if (start && item.year === start.year && item.week < start.week) {
+      // console.log('filtering by start week', item);
+      return false;
+    }
+
+    if (end && item.year === end.year && item.week > end.week) {
+      // console.log('filtering by end week', item);
+      return false;
+    }
+
+    return true;
   });
 
   const startDate = data[0];
@@ -23,15 +44,16 @@ function timestampsToDatePeriods(start, end) {
 
   const deploysPerDay = [];
   const deploysPerDayHistogram = [];
-  const deploysPerDayHistogram2017 = [];
   const deploysPerWeek = [];
   const daysWithoutDeploys = [];
   const deploysByHour = [];
-  const deploysByHour2017 = [];
   const deploysByDayOfTheWeek = [];
-  const deploysByDayOfTheWeek2017 = [];
 
-  const years = [2016, 2017];
+  const years = [];
+  for (let y = data[0].year; y <= data[data.length - 1].year; y++) {
+    years.push(y);
+  }
+
   const weeks = [];
   let i = 0;
   for (i = 0; i < 52; i++) {
@@ -44,17 +66,9 @@ function timestampsToDatePeriods(start, end) {
       weekday: i,
       count: 0,
     };
-    deploysByDayOfTheWeek2017[i] = {
-      weekday: i,
-      count: 0,
-    };
   }
   for (i = 0; i < 24; i++) {
     deploysByHour[i] = {
-      hour: i,
-      count: 0,
-    };
-    deploysByHour2017[i] = {
       hour: i,
       count: 0,
     };
@@ -120,10 +134,6 @@ function timestampsToDatePeriods(start, end) {
       freq: 0,
       count: i,
     };
-    deploysPerDayHistogram2017[i] = {
-      freq: 0,
-      count: i,
-    };
   }
 
   deploysPerDay.forEach((day) => {
@@ -140,22 +150,6 @@ function timestampsToDatePeriods(start, end) {
     }
   });
 
-  const only2017 = {
-    deploysPerDay: deploysPerDay.filter(day => day.year === 2017),
-    deploysPerWeek: deploysPerWeek.filter(day => day.year === 2017),
-  };
-
-  only2017.deploysPerDay.forEach((datum) => {
-    // Only analyze working days
-    if (datum.weekday !== 0 && datum.weekday !== 6) {
-      deploysPerDayHistogram2017[datum.count] = deploysPerDayHistogram2017[datum.count] || {
-        count: datum.count,
-        freq: 0,
-      };
-      deploysPerDayHistogram2017[datum.count].freq++;
-    }
-  });
-
   return {
     startDate,
     endDate,
@@ -166,10 +160,6 @@ function timestampsToDatePeriods(start, end) {
     daysWithoutDeploys,
     deploysByHour,
     deploysByDayOfTheWeek,
-
-    deploysPerDay2017: only2017.deploysPerDay,
-    deploysPerWeek2017: only2017.deploysPerWeek,
-    deploysPerDayHistogram2017,
   };
 }
 
