@@ -1,5 +1,7 @@
 import { combineReducers } from 'redux';
-import timestampsToDatePeriods from '../lib/timestampsToDatePeriods';
+import getTimestampsToDatePeriods from '../lib/timestampsToDatePeriods';
+
+const timestampsToDatePeriods = getTimestampsToDatePeriods();
 
 function debug() {
   // console.log(arguments);
