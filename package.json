@@ -39,6 +39,7 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.3.0",
     "fixturefiles": "^0.3.0",
+    "jest-cli": "^21.2.1",
     "mocha": "^3.5.1",
     "react-test-renderer": "^16.0.0",
     "sinon": "^4.0.0"
