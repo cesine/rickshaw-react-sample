@@ -84,31 +84,8 @@ class ResizableChart extends Component {
         height: this.getHeight(),
         width: this.getWidth(),
       });
-      if (this.props.params.startYear || this.props.params.endYear) {
-        this.graph.setSeries(this.graph.mapDataToSeries(this.props.data.filter((item) => {
-          if (!item.year) {
-            return true;
-          }
-          if (item.year < this.props.params.startYear) {
-            return false;
-          }
-          if (item.year > this.props.params.endYear) {
-            return false;
-          }
-          if (item.week < this.props.params.startWeek) {
-            return false;
-          }
-          if (item.week > this.props.params.endWeek) {
-            return false;
-          }
-          if (item.weekday < this.props.params.startDay) {
-            return false;
-          }
-          if (item.weekday > this.props.params.endDay) {
-            return false;
-          }
-          return true;
-        })));
+      if (this.graph.data !== this.props.data) {
+        this.graph.setSeries(this.props.data);
       }
       this.graph.render();
       return this.graph;

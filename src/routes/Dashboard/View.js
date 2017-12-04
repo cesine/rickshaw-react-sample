@@ -24,6 +24,7 @@ export default function Dashboard(props) {
   function onDragZoom({ start, end }) {
     console.log('onDragZoom', start, end);
     history.push(`/start/${start.year}/${start.week}/${start.weekday}/end/${end.year}/${end.week}/${end.weekday}`);
+    props.filterByStartAndEnd({ start, end });
   }
 
   const style = {
@@ -101,6 +102,7 @@ Dashboard.propTypes = {
   match: PropTypes.shape({
     parmams: PropTypes.shape({}),
   }).isRequired,
+  filterByStartAndEnd: PropTypes.func.isRequired,
   deploysByHour: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
   deploysPerDay: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
   deploysByDayOfTheWeek: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
